@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    177711,       4453]
-NotebookOptionsPosition[    174870,       4356]
-NotebookOutlinePosition[    175337,       4374]
-CellTagsIndexPosition[    175294,       4371]
+NotebookDataLength[    185931,       4607]
+NotebookOptionsPosition[    180729,       4512]
+NotebookOutlinePosition[    181257,       4531]
+CellTagsIndexPosition[    181214,       4528]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,17 +21,22 @@ Notebook[{
 
 Cell[CellGroupData[{
 Cell["SPT :", "Section",
- CellChangeTimes->{{3.735139362361252*^9, 3.7351393663118258`*^9}}],
+ CellChangeTimes->{{3.735139362361252*^9, 
+  3.7351393663118258`*^9}},ExpressionUUID->"b3df73c0-0920-4e8a-854e-\
+dc1f0c5f0035"],
 
 Cell[CellGroupData[{
 
 Cell[TextData[{
  Cell[BoxData[
   FormBox[
-   SubscriptBox["F", "4"], TraditionalForm]]],
+   SubscriptBox["F", "4"], TraditionalForm]],ExpressionUUID->
+  "6c536a17-d8b8-4593-ac5c-be373678873b"],
  ":"
 }], "Subsection",
- CellChangeTimes->{{3.735907116955439*^9, 3.735907142776856*^9}}],
+ CellChangeTimes->{{3.735907116955439*^9, 
+  3.735907142776856*^9}},ExpressionUUID->"8964b7f5-370e-47cc-98db-\
+a79789caf617"],
 
 Cell[BoxData[{
  RowBox[{
@@ -363,14 +368,8 @@ Cell[BoxData[{
   3.7464829506910877`*^9, 3.7464830384780693`*^9}, {3.746653794965386*^9, 
   3.746653802375445*^9}, {3.746653937293548*^9, 3.746653947961063*^9}, {
   3.746718606253641*^9, 3.746718616069242*^9}, {3.76372816139806*^9, 
-  3.763728185214394*^9}}]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Ignore", "Section",
- CellChangeTimes->{{3.764414993270557*^9, 3.764415011563888*^9}}],
+  3.763728185214394*^9}},ExpressionUUID->"8462d71b-ad7c-436a-ab0b-\
+72d780b1f17e"],
 
 Cell[BoxData[{
  RowBox[{
@@ -567,13 +566,16 @@ Cell[BoxData[{
    3.764331835177991*^9, 3.7643318356293*^9}, {3.7643319068628187`*^9, 
    3.764331907044861*^9}, {3.764332065801999*^9, 3.764332086791745*^9}, 
    3.7643393249052067`*^9, 3.764339371010489*^9, 3.7643402444543943`*^9, 
-   3.764340283389717*^9}],
+   3.764340283389717*^9},ExpressionUUID->"4fee2b71-7b07-4f8b-9536-\
+0a2963542b7c"],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
   "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.76372783508777*^9, 3.763728004538129*^9}, {
-   3.763728048298311*^9, 3.763728151202586*^9}, 3.7637281988595953`*^9}],
+   3.763728048298311*^9, 3.763728151202586*^9}, 
+   3.7637281988595953`*^9},ExpressionUUID->"e3ed6783-e8c3-4a81-aa27-\
+465bc7138391"],
 
 Cell[CellGroupData[{
 
@@ -600,7 +602,9 @@ Cell[BoxData[{
    "]"}]}]}], "Input",
  CellChangeTimes->{{3.736510812644775*^9, 3.7365108224865217`*^9}, {
    3.746483094034519*^9, 3.7464831026375713`*^9}, 3.7640875493196487`*^9, 
-   3.764087679548382*^9, 3.764331875594418*^9}],
+   3.764087679548382*^9, 
+   3.764331875594418*^9},ExpressionUUID->"660001cc-989d-4292-b22d-\
+06eaacc452ca"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -646,15 +650,17 @@ Cell[BoxData[
      RowBox[{"O", "[", "\[Epsilon]", "]"}], "3"],
     SeriesData[$CellContext`\[Epsilon], 0, {}, 1, 3, 1],
     Editable->False]}],
-  SeriesData[$CellContext`\[Epsilon], 0, {
-   9 $CellContext`a^(-3) $CellContext`dk $CellContext`k^(-2) $CellContext`\
-\[Zeta], Rational[1, 4] $CellContext`a^(-2) (
-     2 $CellContext`a $CellContext`d1 $CellContext`d2 (
-       5 $CellContext`\[Alpha]12 + 2 $CellContext`\[Beta]12) + 
-     3 $CellContext`\[Zeta] (
-       18 $CellContext`fd $CellContext`k^(-2) + $CellContext`d1 \
-$CellContext`d2 $CellContext`k1^(-2) $CellContext`k2^(-2) (
-         3 $CellContext`k1^2 (-1 + $CellContext`\[Alpha]12) - 
+  SeriesData[$CellContext`\[Epsilon], 
+   0, {(((9 $CellContext`a^(-3)) $CellContext`dk) $CellContext`k^(-2)) \
+$CellContext`\[Zeta], (
+     Rational[1, 
+       4] $CellContext`a^(-2)) ((((
+         2 $CellContext`a) $CellContext`d1) $CellContext`d2) (
+       5 $CellContext`\[Alpha]12 + 2 $CellContext`\[Beta]12) + (
+       3 $CellContext`\[Zeta]) ((
+         18 $CellContext`fd) $CellContext`k^(-2) + ((($CellContext`d1 \
+$CellContext`d2) $CellContext`k1^(-2)) $CellContext`k2^(-2)) ((
+           3 $CellContext`k1^2) (-1 + $CellContext`\[Alpha]12) - 
          7 $CellContext`\[Kappa]12)))}, 1, 3, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.736510806299551*^9, 3.7365108236291227`*^9}, 
@@ -672,7 +678,8 @@ $CellContext`d2 $CellContext`k1^(-2) $CellContext`k2^(-2) (
    3.764331840916464*^9, 3.76433187617227*^9, 3.764331912260001*^9, {
    3.764332069416638*^9, 3.7643321119971743`*^9}, 3.764334786043455*^9, 
    3.764339329600204*^9, 3.7643393749708223`*^9, 3.764340247461578*^9, 
-   3.7643402878053207`*^9}],
+   3.7643402878053207`*^9},ExpressionUUID->"58828ca5-7731-4f1a-8613-\
+aab032b9a604"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1066,112 +1073,126 @@ Cell[BoxData[
      RowBox[{"O", "[", "\[Epsilon]", "]"}], "5"],
     SeriesData[$CellContext`\[Epsilon], 0, {}, 1, 5, 1],
     Editable->False]}],
-  SeriesData[$CellContext`\[Epsilon], 0, {
-   9 $CellContext`a^(-3) $CellContext`dk $CellContext`k^(-2) $CellContext`\
-\[Zeta], Rational[1, 2] $CellContext`a^(-2) (
-     27 $CellContext`fd $CellContext`k^(-2) $CellContext`\[Zeta] + \
-$CellContext`d1 $CellContext`d2 ($CellContext`a (5 $CellContext`\[Alpha]12 + 
-         2 $CellContext`\[Beta]12) - 
-       6 $CellContext`k2^(-2) (-1 + $CellContext`\[Alpha]12) $CellContext`\
-\[Zeta])), 
-    Rational[1, 
-      4] $CellContext`a^(-2) $CellContext`k^(-2) $CellContext`k1^(-2) \
-$CellContext`k2^(-2) $CellContext`k3^(-2) (
-     2 $CellContext`a^2 $CellContext`k^2 $CellContext`k1^2 $CellContext`k2^2 \
-$CellContext`k3^2 (7 $CellContext`d1 $CellContext`fd2 $CellContext`\[Alpha]12 + 
-       7 $CellContext`d2 $CellContext`gd1 $CellContext`\[Alpha]12 + 
-       2 $CellContext`d2 $CellContext`gd1 $CellContext`\[Beta]12 + 
-       2 $CellContext`d1 $CellContext`gd2 $CellContext`\[Beta]12) + \
-$CellContext`a $CellContext`k1^2 $CellContext`k3^2 (
-       72 $CellContext`ft $CellContext`k2^2 + $CellContext`k^2 \
-($CellContext`d2 ((-6) $CellContext`fd1 (2 + 
-             3 $CellContext`\[Alpha]12) + $CellContext`gd1 (-16 + 
-             31 $CellContext`\[Alpha]12) + 
-           2 $CellContext`gdr1 $CellContext`k2^2 (5 $CellContext`\[Alpha]12 + 
-             2 $CellContext`\[Beta]12)) + $CellContext`d1 ((-9) \
-$CellContext`fd2 (
-             8 + $CellContext`\[Alpha]12) + $CellContext`d2 $CellContext`d3 \
-(-1 + $CellContext`\[Alpha]12) (16 + 3 $CellContext`\[Alpha]312) + 
-           2 ((-7) $CellContext`gd2 (-1 + $CellContext`\[Alpha]12) + \
-$CellContext`k2^2 (5 $CellContext`fdr2 $CellContext`\[Alpha]12 + 
-               2 $CellContext`gdr2 $CellContext`\[Beta]12))))) $CellContext`\
-\[Zeta] + 
-     3 $CellContext`k^2 ($CellContext`d1 ((-27) $CellContext`fd2 \
-$CellContext`k3^2 - $CellContext`k1^2 (3 $CellContext`d2 $CellContext`d3 + 
-          7 $CellContext`gdr2 $CellContext`k3^2) (-1 + \
-$CellContext`\[Alpha]12)) + $CellContext`d2 $CellContext`k1^2 \
-$CellContext`k3^2 ((-3) $CellContext`fdr1 + $CellContext`gdr1 + 
-         2 $CellContext`gdr1 $CellContext`\[Alpha]12)) \
-$CellContext`\[Zeta]^2), 
-    Rational[1, 
-      4] $CellContext`a^(-2) $CellContext`k^(-2) $CellContext`k1^(-2) \
-$CellContext`k2^(-2) $CellContext`k3^(-2) (
-     2 $CellContext`a^3 $CellContext`k^2 $CellContext`k1^2 $CellContext`k2^2 \
-$CellContext`k3^2 (
-       9 ($CellContext`d1 $CellContext`ft2 + $CellContext`fd2 \
-$CellContext`gd1 + $CellContext`d2 $CellContext`gt1) $CellContext`\[Alpha]12 + 
-       2 ($CellContext`gd1 $CellContext`gd2 + $CellContext`d2 \
-$CellContext`gt1 + $CellContext`d1 $CellContext`gt2) $CellContext`\[Beta]12) + \
-$CellContext`a^2 $CellContext`k1^2 $CellContext`k3^2 (
-       90 $CellContext`fq $CellContext`k2^2 - 
-       3 $CellContext`fd1 $CellContext`fd2 $CellContext`k^2 (29 + 
-        6 $CellContext`\[Alpha]12) + $CellContext`d1 $CellContext`k^2 ((-171) \
-$CellContext`ft2 + 3 $CellContext`gt2 - 
-         9 $CellContext`ft2 $CellContext`\[Alpha]12 - 
-         3 $CellContext`gt2 $CellContext`\[Alpha]12 + 
-         14 $CellContext`ftr2 $CellContext`k2^2 $CellContext`\[Alpha]12 + \
-$CellContext`d2 (-1 + $CellContext`\[Alpha]12) (39 $CellContext`fd3 + 
-           12 $CellContext`fd3 $CellContext`\[Alpha]312 - 
-           7 $CellContext`gd3 $CellContext`\[Alpha]312) - 
-         3 $CellContext`d3 (-1 + $CellContext`\[Alpha]12) ($CellContext`gd2 - 
-          5 $CellContext`gd2 $CellContext`\[Alpha]312 + 
-          2 $CellContext`fd2 (-7 + 2 $CellContext`\[Alpha]312)) + 
-         4 $CellContext`gtr2 $CellContext`k2^2 $CellContext`\[Beta]12) + \
-$CellContext`k^2 ((-42) $CellContext`fd2 $CellContext`gd1 + 
-         3 $CellContext`gd1 $CellContext`gd2 + 
-         15 $CellContext`fd2 $CellContext`gd1 $CellContext`\[Alpha]12 - 
-         3 $CellContext`gd1 $CellContext`gd2 $CellContext`\[Alpha]12 + 
-         14 $CellContext`fdr2 $CellContext`gd1 $CellContext`k2^2 \
-$CellContext`\[Alpha]12 + 
-         14 $CellContext`fd2 $CellContext`gdr1 $CellContext`k2^2 \
-$CellContext`\[Alpha]12 + 
-         4 ($CellContext`gd2 $CellContext`gdr1 + $CellContext`gd1 \
-$CellContext`gdr2) $CellContext`k2^2 $CellContext`\[Beta]12 + $CellContext`d2 \
-((-39) $CellContext`gt1 + 60 $CellContext`gt1 $CellContext`\[Alpha]12 + 
-           14 $CellContext`gtr1 $CellContext`k2^2 $CellContext`\[Alpha]12 - 
-           9 $CellContext`ft1 (5 + 2 $CellContext`\[Alpha]12) + 
-           3 $CellContext`d3 $CellContext`gd1 (-1 + $CellContext`\[Alpha]12) (
-             13 + $CellContext`\[Alpha]312) + 
-           4 $CellContext`gtr1 $CellContext`k2^2 $CellContext`\[Beta]12))) \
-$CellContext`\[Zeta] + $CellContext`a $CellContext`k^2 ($CellContext`d1 \
-((-270) $CellContext`ft2 $CellContext`k3^2 + $CellContext`k1^2 (-1 + \
-$CellContext`\[Alpha]12) ($CellContext`k3^2 (
-             16 $CellContext`d2 $CellContext`fdr3 - 14 $CellContext`gtr2 - 
-             9 $CellContext`d2 $CellContext`gdr3 $CellContext`\[Alpha]312) + \
-$CellContext`d3 (90 $CellContext`fd2 - 
-             42 $CellContext`gd2 + $CellContext`gdr2 $CellContext`k3^2 (-14 + 
-               15 $CellContext`\[Alpha]312)))) + $CellContext`k1^2 \
-($CellContext`d2 ($CellContext`k3^2 ((-30) $CellContext`ftr1 + \
-$CellContext`gtr1 (-16 + 
-               31 $CellContext`\[Alpha]12)) + $CellContext`d3 (-1 + \
-$CellContext`\[Alpha]12) (
-             48 $CellContext`gd1 + $CellContext`gdr1 $CellContext`k3^2 (16 + 
-               3 $CellContext`\[Alpha]312))) + $CellContext`k3^2 ((-30) \
-$CellContext`fd2 (2 $CellContext`fdr1 + $CellContext`gdr1) + 
-           9 $CellContext`fd2 $CellContext`gdr1 $CellContext`\[Alpha]12 + 
-           2 ((-7) $CellContext`gd2 $CellContext`gdr1 (-1 + $CellContext`\
-\[Alpha]12) - 
-             7 $CellContext`gd1 $CellContext`gdr2 (-1 + \
-$CellContext`\[Alpha]12) + $CellContext`gdr1 $CellContext`k2^2 (
-               5 $CellContext`fdr2 $CellContext`\[Alpha]12 + 
-               2 $CellContext`gdr2 $CellContext`\[Beta]12))))) $CellContext`\
-\[Zeta]^2 - 
-     3 $CellContext`k^2 $CellContext`k1^2 (
-      3 $CellContext`d2 $CellContext`d3 $CellContext`gdr1 + 
-      7 $CellContext`gdr2 (
-        3 $CellContext`d1 $CellContext`d3 + $CellContext`gdr1 \
-$CellContext`k3^2)) (-1 + $CellContext`\[Alpha]12) $CellContext`\[Zeta]^3)}, 
-   1, 5, 1],
+  SeriesData[$CellContext`\[Epsilon], 
+   0, {(((9 $CellContext`a^(-3)) $CellContext`dk) $CellContext`k^(-2)) \
+$CellContext`\[Zeta], (
+     Rational[1, 
+       2] $CellContext`a^(-2)) (((
+        27 $CellContext`fd) $CellContext`k^(-2)) $CellContext`\[Zeta] + \
+($CellContext`d1 $CellContext`d2) ($CellContext`a (5 $CellContext`\[Alpha]12 + 
+         2 $CellContext`\[Beta]12) - ((
+         6 $CellContext`k2^(-2)) (-1 + $CellContext`\[Alpha]12)) \
+$CellContext`\[Zeta])), (((((
+         Rational[
+          1, 4] $CellContext`a^(-2)) $CellContext`k^(-2)) \
+$CellContext`k1^(-2)) $CellContext`k2^(-2)) $CellContext`k3^(-2)) ((((((
+           2 $CellContext`a^2) $CellContext`k^2) $CellContext`k1^2) \
+$CellContext`k2^2) $CellContext`k3^2) (((
+          7 $CellContext`d1) $CellContext`fd2) $CellContext`\[Alpha]12 + ((
+          7 $CellContext`d2) $CellContext`gd1) $CellContext`\[Alpha]12 + ((
+          2 $CellContext`d2) $CellContext`gd1) $CellContext`\[Beta]12 + ((
+          2 $CellContext`d1) $CellContext`gd2) $CellContext`\[Beta]12) + \
+((($CellContext`a $CellContext`k1^2) $CellContext`k3^2) ((
+          72 $CellContext`ft) $CellContext`k2^2 + $CellContext`k^2 \
+($CellContext`d2 (((-6) $CellContext`fd1) (2 + 
+              3 $CellContext`\[Alpha]12) + $CellContext`gd1 (-16 + 
+              31 $CellContext`\[Alpha]12) + ((
+               2 $CellContext`gdr1) $CellContext`k2^2) (
+              5 $CellContext`\[Alpha]12 + 
+              2 $CellContext`\[Beta]12)) + $CellContext`d1 (((-9) \
+$CellContext`fd2) (
+              8 + $CellContext`\[Alpha]12) + (($CellContext`d2 \
+$CellContext`d3) (-1 + $CellContext`\[Alpha]12)) (16 + 
+              3 $CellContext`\[Alpha]312) + 
+            2 (((-7) $CellContext`gd2) (-1 + $CellContext`\[Alpha]12) + \
+$CellContext`k2^2 ((5 $CellContext`fdr2) $CellContext`\[Alpha]12 + (
+                  2 $CellContext`gdr2) $CellContext`\[Beta]12)))))) \
+$CellContext`\[Zeta] + ((
+        3 $CellContext`k^2) ($CellContext`d1 (((-27) $CellContext`fd2) \
+$CellContext`k3^2 - ($CellContext`k1^2 ((
+              3 $CellContext`d2) $CellContext`d3 + (
+              7 $CellContext`gdr2) $CellContext`k3^2)) (-1 + $CellContext`\
+\[Alpha]12)) + (($CellContext`d2 $CellContext`k1^2) $CellContext`k3^2) ((-3) \
+$CellContext`fdr1 + $CellContext`gdr1 + (
+            2 $CellContext`gdr1) $CellContext`\[Alpha]12))) $CellContext`\
+\[Zeta]^2), (((((
+         Rational[
+          1, 4] $CellContext`a^(-2)) $CellContext`k^(-2)) \
+$CellContext`k1^(-2)) $CellContext`k2^(-2)) $CellContext`k3^(-2)) ((((((
+           2 $CellContext`a^3) $CellContext`k^2) $CellContext`k1^2) \
+$CellContext`k2^2) $CellContext`k3^2) ((
+         9 ($CellContext`d1 $CellContext`ft2 + $CellContext`fd2 \
+$CellContext`gd1 + $CellContext`d2 $CellContext`gt1)) $CellContext`\[Alpha]12 + \
+(2 ($CellContext`gd1 $CellContext`gd2 + $CellContext`d2 $CellContext`gt1 + \
+$CellContext`d1 $CellContext`gt2)) $CellContext`\[Beta]12) + \
+((($CellContext`a^2 $CellContext`k1^2) $CellContext`k3^2) ((
+          90 $CellContext`fq) $CellContext`k2^2 - (((
+           3 $CellContext`fd1) $CellContext`fd2) $CellContext`k^2) (29 + 
+         6 $CellContext`\[Alpha]12) + ($CellContext`d1 $CellContext`k^2) \
+((-171) $CellContext`ft2 + 
+          3 $CellContext`gt2 - (
+           9 $CellContext`ft2) $CellContext`\[Alpha]12 - (
+           3 $CellContext`gt2) $CellContext`\[Alpha]12 + ((
+             14 $CellContext`ftr2) $CellContext`k2^2) $CellContext`\[Alpha]12 + \
+($CellContext`d2 (-1 + $CellContext`\[Alpha]12)) (
+            39 $CellContext`fd3 + (
+              12 $CellContext`fd3) $CellContext`\[Alpha]312 - (
+             7 $CellContext`gd3) $CellContext`\[Alpha]312) - ((
+            3 $CellContext`d3) (-1 + $CellContext`\[Alpha]12)) \
+($CellContext`gd2 - (
+            5 $CellContext`gd2) $CellContext`\[Alpha]312 + (
+             2 $CellContext`fd2) (-7 + 2 $CellContext`\[Alpha]312)) + ((
+             4 $CellContext`gtr2) $CellContext`k2^2) $CellContext`\[Beta]12) + \
+$CellContext`k^2 (((-42) $CellContext`fd2) $CellContext`gd1 + (
+            3 $CellContext`gd1) $CellContext`gd2 + ((
+             
+             15 $CellContext`fd2) $CellContext`gd1) $CellContext`\[Alpha]12 - \
+((3 $CellContext`gd1) $CellContext`gd2) $CellContext`\[Alpha]12 + (((
+              14 $CellContext`fdr2) $CellContext`gd1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + (((
+              14 $CellContext`fd2) $CellContext`gdr1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + ((
+             4 ($CellContext`gd2 $CellContext`gdr1 + $CellContext`gd1 \
+$CellContext`gdr2)) $CellContext`k2^2) $CellContext`\[Beta]12 + \
+$CellContext`d2 ((-39) $CellContext`gt1 + (
+              60 $CellContext`gt1) $CellContext`\[Alpha]12 + ((
+               14 $CellContext`gtr1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 - (9 $CellContext`ft1) (5 + 
+             2 $CellContext`\[Alpha]12) + (((
+                3 $CellContext`d3) $CellContext`gd1) (-1 + $CellContext`\
+\[Alpha]12)) (
+              13 + $CellContext`\[Alpha]312) + ((
+               4 $CellContext`gtr1) $CellContext`k2^2) \
+$CellContext`\[Beta]12)))) $CellContext`\[Zeta] + (($CellContext`a \
+$CellContext`k^2) ($CellContext`d1 (((-270) $CellContext`ft2) \
+$CellContext`k3^2 + ($CellContext`k1^2 (-1 + $CellContext`\[Alpha]12)) \
+($CellContext`k3^2 ((16 $CellContext`d2) $CellContext`fdr3 - 
+              14 $CellContext`gtr2 - ((
+                9 $CellContext`d2) $CellContext`gdr3) \
+$CellContext`\[Alpha]312) + $CellContext`d3 (90 $CellContext`fd2 - 
+              42 $CellContext`gd2 + ($CellContext`gdr2 $CellContext`k3^2) \
+(-14 + 15 $CellContext`\[Alpha]312)))) + $CellContext`k1^2 ($CellContext`d2 \
+($CellContext`k3^2 ((-30) $CellContext`ftr1 + $CellContext`gtr1 (-16 + 
+                31 $CellContext`\[Alpha]12)) + ($CellContext`d3 (-1 + \
+$CellContext`\[Alpha]12)) (
+              48 $CellContext`gd1 + ($CellContext`gdr1 $CellContext`k3^2) (16 + 
+                3 $CellContext`\[Alpha]312))) + $CellContext`k3^2 (((-30) \
+$CellContext`fd2) (
+              2 $CellContext`fdr1 + $CellContext`gdr1) + ((
+               9 $CellContext`fd2) $CellContext`gdr1) $CellContext`\[Alpha]12 + 
+            2 ((((-7) $CellContext`gd2) $CellContext`gdr1) (-1 + \
+$CellContext`\[Alpha]12) - ((
+                7 $CellContext`gd1) $CellContext`gdr2) (-1 + $CellContext`\
+\[Alpha]12) + ($CellContext`gdr1 $CellContext`k2^2) ((
+                  5 $CellContext`fdr2) $CellContext`\[Alpha]12 + (
+                  2 $CellContext`gdr2) $CellContext`\[Beta]12)))))) \
+$CellContext`\[Zeta]^2 - ((((
+         3 $CellContext`k^2) $CellContext`k1^2) (((
+           3 $CellContext`d2) $CellContext`d3) $CellContext`gdr1 + (
+          7 $CellContext`gdr2) ((
+            3 $CellContext`d1) $CellContext`d3 + $CellContext`gdr1 \
+$CellContext`k3^2))) (-1 + $CellContext`\[Alpha]12)) $CellContext`\[Zeta]^3)},
+    1, 5, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.736510806299551*^9, 3.7365108236291227`*^9}, 
    3.736511192813923*^9, 3.736512039783428*^9, 3.736512295084865*^9, 
@@ -1188,7 +1209,8 @@ $CellContext`k3^2)) (-1 + $CellContext`\[Alpha]12) $CellContext`\[Zeta]^3)},
    3.764331840916464*^9, 3.76433187617227*^9, 3.764331912260001*^9, {
    3.764332069416638*^9, 3.7643321119971743`*^9}, 3.764334786043455*^9, 
    3.764339329600204*^9, 3.7643393749708223`*^9, 3.764340247461578*^9, 
-   3.764340295267167*^9}]
+   3.764340295267167*^9},ExpressionUUID->"e3b929cc-14fc-4a98-9a2d-\
+0fa85291e0fb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1227,7 +1249,9 @@ Cell[BoxData[{
    3.736512370404084*^9, {3.746483111651483*^9, 3.746483113915895*^9}, {
    3.764087535486208*^9, 3.764087538563251*^9}, {3.7640875955409327`*^9, 
    3.764087600963963*^9}, {3.764087663904607*^9, 3.7640877173288116`*^9}, 
-   3.764087798916568*^9, {3.764087849530113*^9, 3.764087852994982*^9}}],
+   3.764087798916568*^9, {3.764087849530113*^9, 
+   3.764087852994982*^9}},ExpressionUUID->"2341245a-aefe-40ea-b75b-\
+dfb89d7b2a8a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1246,8 +1270,9 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       9 $CellContext`a^(-3) $CellContext`dk $CellContext`k^(-2)}, 1, 2, 1],
+      SeriesData[$CellContext`\[Zeta], 
+       0, {((9 $CellContext`a^(-3)) $CellContext`dk) $CellContext`k^(-2)}, 1, 
+       2, 1],
       Editable->False], ")"}], " ", "\[Epsilon]"}], "+", 
    RowBox[{
     RowBox[{"(", 
@@ -1281,13 +1306,16 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       Rational[1, 2] $CellContext`a^(-1) $CellContext`d1 $CellContext`d2 (
-         5 $CellContext`\[Alpha]12 + 2 $CellContext`\[Beta]12), 
-        Rational[
-         1, 2] $CellContext`a^(-2) $CellContext`k^(-2) $CellContext`k2^(-2) (
-         27 $CellContext`fd $CellContext`k2^2 - 
-         6 $CellContext`d1 $CellContext`d2 $CellContext`k^2 (-1 + \
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(((Rational[
+            1, 2]/$CellContext`a) $CellContext`d1) $CellContext`d2) (
+         5 $CellContext`\[Alpha]12 + 
+         2 $CellContext`\[Beta]12), (((
+           Rational[
+            1, 2] $CellContext`a^(-2)) $CellContext`k^(-2)) \
+$CellContext`k2^(-2)) ((
+           27 $CellContext`fd) $CellContext`k2^2 - (((
+            6 $CellContext`d1) $CellContext`d2) $CellContext`k^2) (-1 + \
 $CellContext`\[Alpha]12))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "2"]}], "+", 
@@ -1309,7 +1337,11 @@ $CellContext`\[Alpha]12))}, 0, 2, 1],
             RowBox[{"d2", " ", "gd1"}], "+", 
             RowBox[{"d1", " ", "gd2"}]}], ")"}], " ", "\[Beta]12"}]}], ")"}], 
        "+", 
-       FractionBox[
+       RowBox[{
+        FractionBox["1", 
+         RowBox[{"4", " ", "a", " ", 
+          SuperscriptBox["k", "2"], " ", 
+          SuperscriptBox["k2", "2"]}]], 
         RowBox[{
          RowBox[{"(", 
           RowBox[{
@@ -1367,35 +1399,34 @@ $CellContext`\[Alpha]12))}, 0, 2, 1],
                     RowBox[{
                     RowBox[{"5", " ", "fdr2", " ", "\[Alpha]12"}], "+", 
                     RowBox[{"2", " ", "gdr2", " ", "\[Beta]12"}]}], ")"}]}]}],
-                    ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}], " ", "\[Zeta]"}], 
-        
-        RowBox[{"4", " ", "a", " ", 
-         SuperscriptBox["k", "2"], " ", 
-         SuperscriptBox["k2", "2"]}]], "+", 
+                    ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}], " ", 
+         "\[Zeta]"}]}], "+", 
        InterpretationBox[
         SuperscriptBox[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       Rational[
-          7, 2] ($CellContext`d1 $CellContext`fd2 + $CellContext`d2 \
-$CellContext`gd1) $CellContext`\[Alpha]12 + ($CellContext`d2 $CellContext`gd1 + \
-$CellContext`d1 $CellContext`gd2) $CellContext`\[Beta]12, 
-        Rational[
-         1, 4] $CellContext`a^(-1) $CellContext`k^(-2) $CellContext`k2^(-2) (
-         72 $CellContext`ft $CellContext`k2^2 + $CellContext`k^2 \
-($CellContext`d2 ((-6) $CellContext`fd1 (2 + 
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(Rational[
+           7, 2] ($CellContext`d1 $CellContext`fd2 + $CellContext`d2 \
+$CellContext`gd1)) $CellContext`\[Alpha]12 + ($CellContext`d2 \
+$CellContext`gd1 + $CellContext`d1 $CellContext`gd2) $CellContext`\[Beta]12, \
+(((Rational[1, 
+             4]/$CellContext`a) $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+           72 $CellContext`ft) $CellContext`k2^2 + $CellContext`k^2 \
+($CellContext`d2 (((-6) $CellContext`fd1) (2 + 
                3 $CellContext`\[Alpha]12) + $CellContext`gd1 (-16 + 
-               31 $CellContext`\[Alpha]12) + 
-             2 $CellContext`gdr1 $CellContext`k2^2 (5 $CellContext`\[Alpha]12 + 
-               2 $CellContext`\[Beta]12)) + $CellContext`d1 ((-9) \
-$CellContext`fd2 (
-               8 + $CellContext`\[Alpha]12) + $CellContext`d2 $CellContext`d3 \
-(-1 + $CellContext`\[Alpha]12) (16 + 3 $CellContext`\[Alpha]312) + 
-             2 ((-7) $CellContext`gd2 (-1 + $CellContext`\[Alpha]12) + \
-$CellContext`k2^2 (5 $CellContext`fdr2 $CellContext`\[Alpha]12 + 
-                 2 $CellContext`gdr2 $CellContext`\[Beta]12)))))}, 0, 2, 1],
+               31 $CellContext`\[Alpha]12) + ((
+                2 $CellContext`gdr1) $CellContext`k2^2) (
+               5 $CellContext`\[Alpha]12 + 
+               2 $CellContext`\[Beta]12)) + $CellContext`d1 (((-9) \
+$CellContext`fd2) (
+               8 + $CellContext`\[Alpha]12) + (($CellContext`d2 \
+$CellContext`d3) (-1 + $CellContext`\[Alpha]12)) (16 + 
+               3 $CellContext`\[Alpha]312) + 
+             2 (((-7) $CellContext`gd2) (-1 + $CellContext`\[Alpha]12) + \
+$CellContext`k2^2 ((5 $CellContext`fdr2) $CellContext`\[Alpha]12 + (
+                   2 $CellContext`gdr2) $CellContext`\[Beta]12)))))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "3"]}], "+", 
    RowBox[{
@@ -1516,45 +1547,50 @@ $CellContext`k2^2 (5 $CellContext`fdr2 $CellContext`\[Alpha]12 +
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       Rational[
-          9, 2] $CellContext`a ($CellContext`d1 $CellContext`ft2 + \
-$CellContext`fd2 $CellContext`gd1 + $CellContext`d2 $CellContext`gt1) \
-$CellContext`\[Alpha]12 + $CellContext`a ($CellContext`gd1 $CellContext`gd2 + \
-$CellContext`d2 $CellContext`gt1 + $CellContext`d1 $CellContext`gt2) \
-$CellContext`\[Beta]12, 
-        Rational[1, 4] $CellContext`k^(-2) $CellContext`k2^(-2) (
-         90 $CellContext`fq $CellContext`k2^2 - 
-         3 $CellContext`fd1 $CellContext`fd2 $CellContext`k^2 (29 + 
-          6 $CellContext`\[Alpha]12) + $CellContext`d1 $CellContext`k^2 \
-((-171) $CellContext`ft2 + 3 $CellContext`gt2 - 
-           9 $CellContext`ft2 $CellContext`\[Alpha]12 - 
-           3 $CellContext`gt2 $CellContext`\[Alpha]12 + 
-           14 $CellContext`ftr2 $CellContext`k2^2 $CellContext`\[Alpha]12 + \
-$CellContext`d2 (-1 + $CellContext`\[Alpha]12) (39 $CellContext`fd3 + 
-             12 $CellContext`fd3 $CellContext`\[Alpha]312 - 
-             7 $CellContext`gd3 $CellContext`\[Alpha]312) - 
-           3 $CellContext`d3 (-1 + $CellContext`\[Alpha]12) ($CellContext`gd2 - 
-            5 $CellContext`gd2 $CellContext`\[Alpha]312 + 
-            2 $CellContext`fd2 (-7 + 2 $CellContext`\[Alpha]312)) + 
-           4 $CellContext`gtr2 $CellContext`k2^2 $CellContext`\[Beta]12) + \
-$CellContext`k^2 ((-42) $CellContext`fd2 $CellContext`gd1 + 
-           3 $CellContext`gd1 $CellContext`gd2 + 
-           15 $CellContext`fd2 $CellContext`gd1 $CellContext`\[Alpha]12 - 
-           3 $CellContext`gd1 $CellContext`gd2 $CellContext`\[Alpha]12 + 
-           14 $CellContext`fdr2 $CellContext`gd1 $CellContext`k2^2 \
-$CellContext`\[Alpha]12 + 
-           14 $CellContext`fd2 $CellContext`gdr1 $CellContext`k2^2 \
-$CellContext`\[Alpha]12 + 
-           4 ($CellContext`gd2 $CellContext`gdr1 + $CellContext`gd1 \
-$CellContext`gdr2) $CellContext`k2^2 $CellContext`\[Beta]12 + $CellContext`d2 \
-((-39) $CellContext`gt1 + 60 $CellContext`gt1 $CellContext`\[Alpha]12 + 
-             14 $CellContext`gtr1 $CellContext`k2^2 $CellContext`\[Alpha]12 - 
-             9 $CellContext`ft1 (5 + 2 $CellContext`\[Alpha]12) + 
-             3 $CellContext`d3 $CellContext`gd1 (-1 + \
-$CellContext`\[Alpha]12) (13 + $CellContext`\[Alpha]312) + 
-             4 $CellContext`gtr1 $CellContext`k2^2 $CellContext`\[Beta]12)))},
-        0, 2, 1],
+      SeriesData[$CellContext`\[Zeta], 
+       0, {((Rational[
+            9, 2] $CellContext`a) ($CellContext`d1 $CellContext`ft2 + \
+$CellContext`fd2 $CellContext`gd1 + $CellContext`d2 $CellContext`gt1)) \
+$CellContext`\[Alpha]12 + ($CellContext`a ($CellContext`gd1 $CellContext`gd2 + \
+$CellContext`d2 $CellContext`gt1 + $CellContext`d1 $CellContext`gt2)) \
+$CellContext`\[Beta]12, ((
+          Rational[1, 4] $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+           90 $CellContext`fq) $CellContext`k2^2 - (((
+            3 $CellContext`fd1) $CellContext`fd2) $CellContext`k^2) (29 + 
+          6 $CellContext`\[Alpha]12) + ($CellContext`d1 $CellContext`k^2) \
+((-171) $CellContext`ft2 + 
+           3 $CellContext`gt2 - (
+            9 $CellContext`ft2) $CellContext`\[Alpha]12 - (
+            3 $CellContext`gt2) $CellContext`\[Alpha]12 + ((
+              14 $CellContext`ftr2) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + ($CellContext`d2 (-1 + $CellContext`\[Alpha]12)) (
+             39 $CellContext`fd3 + (
+               12 $CellContext`fd3) $CellContext`\[Alpha]312 - (
+              7 $CellContext`gd3) $CellContext`\[Alpha]312) - ((
+             3 $CellContext`d3) (-1 + $CellContext`\[Alpha]12)) \
+($CellContext`gd2 - (
+             5 $CellContext`gd2) $CellContext`\[Alpha]312 + (
+              2 $CellContext`fd2) (-7 + 2 $CellContext`\[Alpha]312)) + ((
+              4 $CellContext`gtr2) $CellContext`k2^2) $CellContext`\[Beta]12) + \
+$CellContext`k^2 (((-42) $CellContext`fd2) $CellContext`gd1 + (
+             3 $CellContext`gd1) $CellContext`gd2 + ((
+              15 $CellContext`fd2) $CellContext`gd1) $CellContext`\[Alpha]12 - \
+((3 $CellContext`gd1) $CellContext`gd2) $CellContext`\[Alpha]12 + (((
+               14 $CellContext`fdr2) $CellContext`gd1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + (((
+               14 $CellContext`fd2) $CellContext`gdr1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + ((
+              4 ($CellContext`gd2 $CellContext`gdr1 + $CellContext`gd1 \
+$CellContext`gdr2)) $CellContext`k2^2) $CellContext`\[Beta]12 + \
+$CellContext`d2 ((-39) $CellContext`gt1 + (
+               60 $CellContext`gt1) $CellContext`\[Alpha]12 + ((
+                14 $CellContext`gtr1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 - (9 $CellContext`ft1) (5 + 
+              2 $CellContext`\[Alpha]12) + (((
+                 3 $CellContext`d3) $CellContext`gd1) (-1 + $CellContext`\
+\[Alpha]12)) (13 + $CellContext`\[Alpha]312) + ((
+                4 $CellContext`gtr1) $CellContext`k2^2) \
+$CellContext`\[Beta]12)))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "4"]}], "+", 
    InterpretationBox[
@@ -1563,74 +1599,85 @@ $CellContext`\[Alpha]12) (13 + $CellContext`\[Alpha]312) +
     SeriesData[$CellContext`\[Epsilon], 0, {}, 1, 5, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 0, {
-    SeriesData[$CellContext`\[Zeta], 0, {
-     9 $CellContext`a^(-3) $CellContext`dk $CellContext`k^(-2)}, 1, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     Rational[1, 2] $CellContext`a^(-1) $CellContext`d1 $CellContext`d2 (
-       5 $CellContext`\[Alpha]12 + 2 $CellContext`\[Beta]12), 
-      Rational[1, 
-        2] $CellContext`a^(-2) $CellContext`k^(-2) $CellContext`k2^(-2) (
-       27 $CellContext`fd $CellContext`k2^2 - 
-       6 $CellContext`d1 $CellContext`d2 $CellContext`k^2 (-1 + $CellContext`\
-\[Alpha]12))}, 0, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     Rational[7, 
-         2] ($CellContext`d1 $CellContext`fd2 + $CellContext`d2 \
-$CellContext`gd1) $CellContext`\[Alpha]12 + ($CellContext`d2 $CellContext`gd1 + \
-$CellContext`d1 $CellContext`gd2) $CellContext`\[Beta]12, 
-      Rational[1, 
-        4] $CellContext`a^(-1) $CellContext`k^(-2) $CellContext`k2^(-2) (
-       72 $CellContext`ft $CellContext`k2^2 + $CellContext`k^2 \
-($CellContext`d2 ((-6) $CellContext`fd1 (2 + 
+    SeriesData[$CellContext`\[Zeta], 
+     0, {((9 $CellContext`a^(-3)) $CellContext`dk) $CellContext`k^(-2)}, 1, 2,
+      1], 
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(((Rational[1, 2]/$CellContext`a) $CellContext`d1) $CellContext`d2) (
+       5 $CellContext`\[Alpha]12 + 
+       2 $CellContext`\[Beta]12), (((
+         Rational[
+          1, 2] $CellContext`a^(-2)) $CellContext`k^(-2)) \
+$CellContext`k2^(-2)) ((
+         27 $CellContext`fd) $CellContext`k2^2 - (((
+          6 $CellContext`d1) $CellContext`d2) $CellContext`k^2) (-1 + \
+$CellContext`\[Alpha]12))}, 0, 2, 1], 
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(Rational[
+         7, 2] ($CellContext`d1 $CellContext`fd2 + $CellContext`d2 \
+$CellContext`gd1)) $CellContext`\[Alpha]12 + ($CellContext`d2 \
+$CellContext`gd1 + $CellContext`d1 $CellContext`gd2) $CellContext`\[Beta]12, \
+(((Rational[
+          1, 4]/$CellContext`a) $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+         72 $CellContext`ft) $CellContext`k2^2 + $CellContext`k^2 \
+($CellContext`d2 (((-6) $CellContext`fd1) (2 + 
              3 $CellContext`\[Alpha]12) + $CellContext`gd1 (-16 + 
-             31 $CellContext`\[Alpha]12) + 
-           2 $CellContext`gdr1 $CellContext`k2^2 (5 $CellContext`\[Alpha]12 + 
-             2 $CellContext`\[Beta]12)) + $CellContext`d1 ((-9) \
-$CellContext`fd2 (
-             8 + $CellContext`\[Alpha]12) + $CellContext`d2 $CellContext`d3 \
-(-1 + $CellContext`\[Alpha]12) (16 + 3 $CellContext`\[Alpha]312) + 
-           2 ((-7) $CellContext`gd2 (-1 + $CellContext`\[Alpha]12) + \
-$CellContext`k2^2 (5 $CellContext`fdr2 $CellContext`\[Alpha]12 + 
-               2 $CellContext`gdr2 $CellContext`\[Beta]12)))))}, 0, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     Rational[9, 
-         2] $CellContext`a ($CellContext`d1 $CellContext`ft2 + \
-$CellContext`fd2 $CellContext`gd1 + $CellContext`d2 $CellContext`gt1) \
-$CellContext`\[Alpha]12 + $CellContext`a ($CellContext`gd1 $CellContext`gd2 + \
-$CellContext`d2 $CellContext`gt1 + $CellContext`d1 $CellContext`gt2) \
-$CellContext`\[Beta]12, 
-      Rational[1, 4] $CellContext`k^(-2) $CellContext`k2^(-2) (
-       90 $CellContext`fq $CellContext`k2^2 - 
-       3 $CellContext`fd1 $CellContext`fd2 $CellContext`k^2 (29 + 
-        6 $CellContext`\[Alpha]12) + $CellContext`d1 $CellContext`k^2 ((-171) \
-$CellContext`ft2 + 3 $CellContext`gt2 - 
-         9 $CellContext`ft2 $CellContext`\[Alpha]12 - 
-         3 $CellContext`gt2 $CellContext`\[Alpha]12 + 
-         14 $CellContext`ftr2 $CellContext`k2^2 $CellContext`\[Alpha]12 + \
-$CellContext`d2 (-1 + $CellContext`\[Alpha]12) (39 $CellContext`fd3 + 
-           12 $CellContext`fd3 $CellContext`\[Alpha]312 - 
-           7 $CellContext`gd3 $CellContext`\[Alpha]312) - 
-         3 $CellContext`d3 (-1 + $CellContext`\[Alpha]12) ($CellContext`gd2 - 
-          5 $CellContext`gd2 $CellContext`\[Alpha]312 + 
-          2 $CellContext`fd2 (-7 + 2 $CellContext`\[Alpha]312)) + 
-         4 $CellContext`gtr2 $CellContext`k2^2 $CellContext`\[Beta]12) + \
-$CellContext`k^2 ((-42) $CellContext`fd2 $CellContext`gd1 + 
-         3 $CellContext`gd1 $CellContext`gd2 + 
-         15 $CellContext`fd2 $CellContext`gd1 $CellContext`\[Alpha]12 - 
-         3 $CellContext`gd1 $CellContext`gd2 $CellContext`\[Alpha]12 + 
-         14 $CellContext`fdr2 $CellContext`gd1 $CellContext`k2^2 \
-$CellContext`\[Alpha]12 + 
-         14 $CellContext`fd2 $CellContext`gdr1 $CellContext`k2^2 \
-$CellContext`\[Alpha]12 + 
-         4 ($CellContext`gd2 $CellContext`gdr1 + $CellContext`gd1 \
-$CellContext`gdr2) $CellContext`k2^2 $CellContext`\[Beta]12 + $CellContext`d2 \
-((-39) $CellContext`gt1 + 60 $CellContext`gt1 $CellContext`\[Alpha]12 + 
-           14 $CellContext`gtr1 $CellContext`k2^2 $CellContext`\[Alpha]12 - 
-           9 $CellContext`ft1 (5 + 2 $CellContext`\[Alpha]12) + 
-           3 $CellContext`d3 $CellContext`gd1 (-1 + $CellContext`\[Alpha]12) (
-             13 + $CellContext`\[Alpha]312) + 
-           4 $CellContext`gtr1 $CellContext`k2^2 $CellContext`\[Beta]12)))}, 
-     0, 2, 1]}, 1, 5, 1],
+             31 $CellContext`\[Alpha]12) + ((
+              2 $CellContext`gdr1) $CellContext`k2^2) (
+             5 $CellContext`\[Alpha]12 + 
+             2 $CellContext`\[Beta]12)) + $CellContext`d1 (((-9) \
+$CellContext`fd2) (
+             8 + $CellContext`\[Alpha]12) + (($CellContext`d2 \
+$CellContext`d3) (-1 + $CellContext`\[Alpha]12)) (16 + 
+             3 $CellContext`\[Alpha]312) + 
+           2 (((-7) $CellContext`gd2) (-1 + $CellContext`\[Alpha]12) + \
+$CellContext`k2^2 ((5 $CellContext`fdr2) $CellContext`\[Alpha]12 + (
+                 2 $CellContext`gdr2) $CellContext`\[Beta]12)))))}, 0, 2, 1], 
+    
+    SeriesData[$CellContext`\[Zeta], 
+     0, {((Rational[
+          9, 2] $CellContext`a) ($CellContext`d1 $CellContext`ft2 + \
+$CellContext`fd2 $CellContext`gd1 + $CellContext`d2 $CellContext`gt1)) \
+$CellContext`\[Alpha]12 + ($CellContext`a ($CellContext`gd1 $CellContext`gd2 + \
+$CellContext`d2 $CellContext`gt1 + $CellContext`d1 $CellContext`gt2)) \
+$CellContext`\[Beta]12, ((
+        Rational[1, 4] $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+         90 $CellContext`fq) $CellContext`k2^2 - (((
+          3 $CellContext`fd1) $CellContext`fd2) $CellContext`k^2) (29 + 
+        6 $CellContext`\[Alpha]12) + ($CellContext`d1 $CellContext`k^2) \
+((-171) $CellContext`ft2 + 
+         3 $CellContext`gt2 - (9 $CellContext`ft2) $CellContext`\[Alpha]12 - (
+          3 $CellContext`gt2) $CellContext`\[Alpha]12 + ((
+            14 $CellContext`ftr2) $CellContext`k2^2) $CellContext`\[Alpha]12 + \
+($CellContext`d2 (-1 + $CellContext`\[Alpha]12)) (
+           39 $CellContext`fd3 + (
+             12 $CellContext`fd3) $CellContext`\[Alpha]312 - (
+            7 $CellContext`gd3) $CellContext`\[Alpha]312) - ((
+           3 $CellContext`d3) (-1 + $CellContext`\[Alpha]12)) \
+($CellContext`gd2 - (
+           5 $CellContext`gd2) $CellContext`\[Alpha]312 + (
+            2 $CellContext`fd2) (-7 + 2 $CellContext`\[Alpha]312)) + ((
+            4 $CellContext`gtr2) $CellContext`k2^2) $CellContext`\[Beta]12) + \
+$CellContext`k^2 (((-42) $CellContext`fd2) $CellContext`gd1 + (
+           3 $CellContext`gd1) $CellContext`gd2 + ((
+            15 $CellContext`fd2) $CellContext`gd1) $CellContext`\[Alpha]12 - \
+((3 $CellContext`gd1) $CellContext`gd2) $CellContext`\[Alpha]12 + (((
+             14 $CellContext`fdr2) $CellContext`gd1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + (((
+             14 $CellContext`fd2) $CellContext`gdr1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 + ((
+            4 ($CellContext`gd2 $CellContext`gdr1 + $CellContext`gd1 \
+$CellContext`gdr2)) $CellContext`k2^2) $CellContext`\[Beta]12 + \
+$CellContext`d2 ((-39) $CellContext`gt1 + (
+             60 $CellContext`gt1) $CellContext`\[Alpha]12 + ((
+              14 $CellContext`gtr1) $CellContext`k2^2) \
+$CellContext`\[Alpha]12 - (9 $CellContext`ft1) (5 + 
+            2 $CellContext`\[Alpha]12) + (((
+               3 $CellContext`d3) $CellContext`gd1) (-1 + $CellContext`\
+\[Alpha]12)) (
+             13 + $CellContext`\[Alpha]312) + ((
+              4 $CellContext`gtr1) $CellContext`k2^2) \
+$CellContext`\[Beta]12)))}, 0, 2, 1]}, 1, 5, 1],
   Editable->False]], "Output",
  CellChangeTimes->{
   3.764087553418559*^9, {3.764087596498128*^9, 3.764087604835191*^9}, 
@@ -1638,7 +1685,10 @@ $CellContext`gdr2) $CellContext`k2^2 $CellContext`\[Beta]12 + $CellContext`d2 \
    3.764330844232498*^9, 3.764331847461673*^9, 3.764331894290388*^9, 
    3.764331928477522*^9, {3.764332077638393*^9, 3.764332094302889*^9}, 
    3.764332125049254*^9, 3.764339340236903*^9, 3.7643393790976133`*^9, 
-   3.7643402522758627`*^9, 3.764340296140304*^9}]
+   3.7643402522758627`*^9, 
+   3.764340296140304*^9},ExpressionUUID->"8d5454e0-d05e-4913-8535-\
+b46592e54d30"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1648,8 +1698,12 @@ Cell[TextData[Cell[BoxData[
   RowBox[{
    SubscriptBox["G", "2"], "from", " ", 
    RowBox[{
-    SubscriptBox["F", "2"], ":"}]}], TraditionalForm]]]], "Subsection",
- CellChangeTimes->{{3.7357257083331203`*^9, 3.735725722535009*^9}}],
+    SubscriptBox["F", "2"], ":"}]}], 
+  TraditionalForm]],ExpressionUUID->"3a626fa3-f37a-4624-ac6b-46c5725d7ba8"]], \
+"Subsection",
+ CellChangeTimes->{{3.7357257083331203`*^9, 
+  3.735725722535009*^9}},ExpressionUUID->"04455f54-641e-4eb2-8f62-\
+21ec0dac8e6f"],
 
 Cell[BoxData[
  RowBox[{
@@ -1665,7 +1719,9 @@ Cell[BoxData[
 
  CellChangeTimes->{{3.735725735475284*^9, 3.7357257455951157`*^9}, {
    3.7357257783536873`*^9, 3.7357258150703783`*^9}, {3.73583999270796*^9, 
-   3.735840017280087*^9}, 3.736431036663352*^9}],
+   3.735840017280087*^9}, 
+   3.736431036663352*^9},ExpressionUUID->"cf8f07f7-902b-45bf-88cb-\
+ba7074a44756"],
 
 Cell[CellGroupData[{
 
@@ -1706,7 +1762,8 @@ Cell[BoxData[{
  CellChangeTimes->{{3.735725859941022*^9, 3.735725861520854*^9}, 
    3.735725981705449*^9, {3.736432700658647*^9, 3.736432706385379*^9}, {
    3.736551050231703*^9, 3.736551054603608*^9}, {3.7466558288079844`*^9, 
-   3.746655943695471*^9}}],
+   3.746655943695471*^9}},ExpressionUUID->"7991e44a-4cbe-4c23-bbe2-\
+238300bd927a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1754,14 +1811,15 @@ Cell[BoxData[
     SeriesData[$CellContext`\[Epsilon], 0, {}, 1, 3, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
-   0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, 
-    Rational[1, 2] $CellContext`a^
-     Rational[-1, 2] ($CellContext`a (4 $CellContext`fd - 
-       2 $CellContext`d1 $CellContext`d2 $CellContext`k1^(-2) \
+   0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, (
+     Rational[1, 2] $CellContext`a^
+      Rational[-1, 2]) ($CellContext`a (
+       4 $CellContext`fd - (((
+          2 $CellContext`d1) $CellContext`d2) $CellContext`k1^(-2)) \
 ($CellContext`k1^2 + $CellContext`\[Kappa]12)) + $CellContext`\[Zeta] (
-       2 $CellContext`fdr + 
-       9 $CellContext`fd $CellContext`k^(-2) - $CellContext`d1 \
-$CellContext`d2 $CellContext`k1^(-2) $CellContext`k2^(-2) (
+       2 $CellContext`fdr + (
+         9 $CellContext`fd) $CellContext`k^(-2) - ((($CellContext`d1 \
+$CellContext`d2) $CellContext`k1^(-2)) $CellContext`k2^(-2)) (
         3 $CellContext`k1^2 + 13 $CellContext`\[Kappa]12)))}, 1, 3, 1],
   Editable->False]], "Output",
  CellChangeTimes->{
@@ -1771,7 +1829,9 @@ $CellContext`d2 $CellContext`k1^(-2) $CellContext`k2^(-2) (
    3.7364307753930607`*^9}, 3.736432707451166*^9, 3.736462887484543*^9, 
    3.7365118469051237`*^9, {3.7365510372482557`*^9, 3.736551055786448*^9}, 
    3.7441320622189503`*^9, 3.746655750478441*^9, 3.746655898576268*^9, {
-   3.746655929678892*^9, 3.746655944396082*^9}, 3.748088305768757*^9}],
+   3.746655929678892*^9, 3.746655944396082*^9}, 
+   3.748088305768757*^9},ExpressionUUID->"dcdfc359-3691-4acb-a4a2-\
+dff41172549e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1817,14 +1877,16 @@ Cell[BoxData[
     SeriesData[$CellContext`\[Epsilon], 0, {}, 1, 3, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
-   0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, 
-    Rational[1, 2] $CellContext`a^
-     Rational[-1, 2] $CellContext`k^(-2) $CellContext`k2^(-2) (
-     2 $CellContext`a $CellContext`k^2 $CellContext`k2^2 (
-       2 $CellContext`fd - $CellContext`d1 $CellContext`d2 $CellContext`\
-\[Alpha]12) + ((9 $CellContext`fd + 
-         2 $CellContext`fdr $CellContext`k^2) $CellContext`k2^2 + \
-$CellContext`d1 $CellContext`d2 $CellContext`k^2 (10 - 
+   0, {$CellContext`a^
+     Rational[-1, 2] $CellContext`\[Epsilon]k, (((
+       Rational[1, 2] $CellContext`a^
+        Rational[-1, 2]) $CellContext`k^(-2)) $CellContext`k2^(-2)) ((((
+         2 $CellContext`a) $CellContext`k^2) $CellContext`k2^2) (
+       2 $CellContext`fd - ($CellContext`d1 $CellContext`d2) $CellContext`\
+\[Alpha]12) + ((
+         9 $CellContext`fd + (
+           2 $CellContext`fdr) $CellContext`k^2) $CellContext`k2^2 + \
+(($CellContext`d1 $CellContext`d2) $CellContext`k^2) (10 - 
          13 $CellContext`\[Alpha]12)) $CellContext`\[Zeta])}, 1, 3, 1],
   Editable->False]], "Output",
  CellChangeTimes->{
@@ -1834,7 +1896,9 @@ $CellContext`d1 $CellContext`d2 $CellContext`k^2 (10 -
    3.7364307753930607`*^9}, 3.736432707451166*^9, 3.736462887484543*^9, 
    3.7365118469051237`*^9, {3.7365510372482557`*^9, 3.736551055786448*^9}, 
    3.7441320622189503`*^9, 3.746655750478441*^9, 3.746655898576268*^9, {
-   3.746655929678892*^9, 3.746655944396082*^9}, 3.7480883059730673`*^9}]
+   3.746655929678892*^9, 3.746655944396082*^9}, 
+   3.7480883059730673`*^9},ExpressionUUID->"79d7c55b-7884-4ac0-8917-\
+7491eb8a133e"]
 }, Open  ]]
 }, Closed]],
 
@@ -1845,9 +1909,13 @@ Cell[TextData[Cell[BoxData[
   RowBox[{
    SubscriptBox["G", "3"], "from", " ", 
    RowBox[{
-    SubscriptBox["F", "3"], ":"}]}], TraditionalForm]]]], "Subsection",
+    SubscriptBox["F", "3"], ":"}]}], 
+  TraditionalForm]],ExpressionUUID->"817b529e-b0bf-41e5-b921-b34320327b00"]], \
+"Subsection",
  CellChangeTimes->{{3.7357257083331203`*^9, 3.735725722535009*^9}, {
-  3.7359071008942223`*^9, 3.735907106346816*^9}}],
+  3.7359071008942223`*^9, 
+  3.735907106346816*^9}},ExpressionUUID->"b8fbc11a-4546-4445-bd98-\
+829521c63bc1"],
 
 Cell[BoxData[
  RowBox[{
@@ -1862,10 +1930,14 @@ Cell[BoxData[
       RowBox[{"\[Delta]", ",", "a"}], "]"}]}], "+", "Sd"}]}], ";"}]], "Input",\
 
  CellChangeTimes->{{3.735909742091333*^9, 3.735909787408863*^9}, {
-  3.735909822942791*^9, 3.735909844128108*^9}}],
+  3.735909822942791*^9, 
+  3.735909844128108*^9}},ExpressionUUID->"3bb2f46c-cb75-493b-b154-\
+f2e1c89bdae1"],
 
 Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.7365535562309313`*^9, 3.736553557417777*^9}}],
+ CellChangeTimes->{{3.7365535562309313`*^9, 
+  3.736553557417777*^9}},ExpressionUUID->"c038e3b0-dfd4-44d5-ba3a-\
+9ed0522e0ad4"],
 
 Cell[CellGroupData[{
 
@@ -1884,7 +1956,9 @@ Cell[BoxData[
       RowBox[{"(", 
        RowBox[{"\[Alpha]12", "-", "1"}], ")"}]}]}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7359097506303864`*^9, 3.7359097808660192`*^9}, 
-   3.736515753975459*^9, {3.736553560080421*^9, 3.736553567525036*^9}}],
+   3.736515753975459*^9, {3.736553560080421*^9, 
+   3.736553567525036*^9}},ExpressionUUID->"f48d31b6-9f5a-43e7-805f-\
+a4fece365880"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2025,42 +2099,45 @@ Cell[BoxData[
     SeriesData[$CellContext`\[Epsilon], 0, {}, 1, 4, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
-   0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, 
-    Rational[1, 2] $CellContext`a^
-     Rational[-1, 2] $CellContext`k^(-2) $CellContext`k2^(-2) (
-     2 $CellContext`a $CellContext`k^2 $CellContext`k2^2 (
-       2 $CellContext`fd - $CellContext`d1 $CellContext`d2 $CellContext`\
-\[Alpha]12) + ((9 $CellContext`fd + 
-         2 $CellContext`fdr $CellContext`k^2) $CellContext`k2^2 + \
-$CellContext`d1 $CellContext`d2 $CellContext`k^2 (10 - 
-         13 $CellContext`\[Alpha]12)) $CellContext`\[Zeta]), 
-    Rational[1, 2] $CellContext`a^
-     Rational[-1, 
-       2] $CellContext`k^(-2) $CellContext`k1^(-2) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) (
-     2 $CellContext`a^2 $CellContext`k^2 $CellContext`k1^2 $CellContext`k2^2 \
-$CellContext`k3^2 (
+   0, {$CellContext`a^
+     Rational[-1, 2] $CellContext`\[Epsilon]k, (((
+       Rational[1, 2] $CellContext`a^
+        Rational[-1, 2]) $CellContext`k^(-2)) $CellContext`k2^(-2)) ((((
+         2 $CellContext`a) $CellContext`k^2) $CellContext`k2^2) (
+       2 $CellContext`fd - ($CellContext`d1 $CellContext`d2) $CellContext`\
+\[Alpha]12) + ((
+         9 $CellContext`fd + (
+           2 $CellContext`fdr) $CellContext`k^2) $CellContext`k2^2 + \
+(($CellContext`d1 $CellContext`d2) $CellContext`k^2) (10 - 
+         13 $CellContext`\[Alpha]12)) $CellContext`\[Zeta]), (((((
+         Rational[1, 2] $CellContext`a^
+          Rational[-1, 
+            2]) $CellContext`k^(-2)) $CellContext`k1^(-2)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) ((((((
+           2 $CellContext`a^2) $CellContext`k^2) $CellContext`k1^2) \
+$CellContext`k2^2) $CellContext`k3^2) (
        3 $CellContext`ft - ($CellContext`d1 $CellContext`fd2 + \
-$CellContext`d2 $CellContext`gd1) $CellContext`\[Alpha]12) - 
-     2 $CellContext`a $CellContext`k1^2 $CellContext`k3^2 ((-9) \
-$CellContext`ft $CellContext`k2^2 + $CellContext`k^2 (-$CellContext`d1 (
-          4 $CellContext`d2 $CellContext`d3 + 
-          9 $CellContext`fd2 + $CellContext`gd2) - 
-        2 $CellContext`ftr $CellContext`k2^2 + $CellContext`d1 (
-          4 $CellContext`d2 $CellContext`d3 + 
-          3 $CellContext`fd2 + $CellContext`gd2 + $CellContext`fdr2 \
-$CellContext`k2^2) $CellContext`\[Alpha]12 + $CellContext`d2 ((-3) \
-$CellContext`fd1 - 4 $CellContext`gd1 + 
-          7 $CellContext`gd1 $CellContext`\[Alpha]12 + $CellContext`gdr1 \
-$CellContext`k2^2 $CellContext`\[Alpha]12))) $CellContext`\[Zeta] + \
-$CellContext`k^2 ($CellContext`d1 (
-         27 $CellContext`fd2 $CellContext`k3^2 - $CellContext`k1^2 (
-          21 $CellContext`d2 $CellContext`d3 + $CellContext`gdr2 \
-$CellContext`k3^2) (-1 + $CellContext`\[Alpha]12)) + $CellContext`d2 \
-$CellContext`k1^2 $CellContext`k3^2 (3 $CellContext`fdr1 + 
-         7 $CellContext`gdr1 - 
-         13 $CellContext`gdr1 $CellContext`\[Alpha]12)) \
-$CellContext`\[Zeta]^2)}, 1, 4, 1],
+$CellContext`d2 $CellContext`gd1) $CellContext`\[Alpha]12) - ((((
+         2 $CellContext`a) $CellContext`k1^2) $CellContext`k3^2) (((-9) \
+$CellContext`ft) $CellContext`k2^2 + $CellContext`k^2 ((-$CellContext`d1) ((
+             4 $CellContext`d2) $CellContext`d3 + 
+           9 $CellContext`fd2 + $CellContext`gd2) - (
+          2 $CellContext`ftr) $CellContext`k2^2 + ($CellContext`d1 ((
+              4 $CellContext`d2) $CellContext`d3 + 
+            3 $CellContext`fd2 + $CellContext`gd2 + $CellContext`fdr2 \
+$CellContext`k2^2)) $CellContext`\[Alpha]12 + $CellContext`d2 ((-3) \
+$CellContext`fd1 - 
+           4 $CellContext`gd1 + (
+             7 $CellContext`gd1) $CellContext`\[Alpha]12 + ($CellContext`gdr1 \
+$CellContext`k2^2) $CellContext`\[Alpha]12)))) $CellContext`\[Zeta] + \
+($CellContext`k^2 ($CellContext`d1 ((
+            27 $CellContext`fd2) $CellContext`k3^2 - ($CellContext`k1^2 ((
+              21 $CellContext`d2) $CellContext`d3 + $CellContext`gdr2 \
+$CellContext`k3^2)) (-1 + $CellContext`\[Alpha]12)) + (($CellContext`d2 \
+$CellContext`k1^2) $CellContext`k3^2) (3 $CellContext`fdr1 + 
+          7 $CellContext`gdr1 - (
+           13 $CellContext`gdr1) $CellContext`\[Alpha]12))) $CellContext`\
+\[Zeta]^2)}, 1, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.7359097814182*^9, 3.735909794284354*^9}, {
    3.73590982651712*^9, 3.735909847129339*^9}, 3.73651187069939*^9, 
@@ -2068,7 +2145,9 @@ $CellContext`\[Zeta]^2)}, 1, 4, 1],
    3.736532619408785*^9, {3.736551251018938*^9, 3.736551255468418*^9}, 
    3.736551667020865*^9, 3.736551950806901*^9, 3.736553465743711*^9, 
    3.736553568514525*^9, {3.736553685274353*^9, 3.736553713079187*^9}, 
-   3.744132064366555*^9, 3.748088319965824*^9}]
+   3.744132064366555*^9, 
+   3.748088319965824*^9},ExpressionUUID->"e5656ce2-c1eb-44c1-bf50-\
+7d78f8c09a7d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2080,7 +2159,9 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"\[Zeta]", ",", "0", ",", "1"}], "}"}]}], "]"}], "]"}]], "Input",\
 
- CellChangeTimes->{{3.736553609983515*^9, 3.736553629028699*^9}}],
+ CellChangeTimes->{{3.736553609983515*^9, 
+  3.736553629028699*^9}},ExpressionUUID->"6d05904d-af7f-4eac-b9b3-\
+805fdef25370"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2126,13 +2207,13 @@ Cell[BoxData[
         Editable->False]}],
       SeriesData[$CellContext`\[Zeta], 
        0, {$CellContext`a^Rational[1, 2] (
-         2 $CellContext`fd - $CellContext`d1 $CellContext`d2 $CellContext`\
-\[Alpha]12), 
-        Rational[1, 2] $CellContext`a^
-         Rational[-1, 2] $CellContext`k^(-2) $CellContext`k2^(-2) ((
-           9 $CellContext`fd + 
-           2 $CellContext`fdr $CellContext`k^2) $CellContext`k2^2 + \
-$CellContext`d1 $CellContext`d2 $CellContext`k^2 (10 - 
+         2 $CellContext`fd - ($CellContext`d1 $CellContext`d2) $CellContext`\
+\[Alpha]12), (((
+           Rational[1, 2] $CellContext`a^
+            Rational[-1, 2]) $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+           9 $CellContext`fd + (
+             2 $CellContext`fdr) $CellContext`k^2) $CellContext`k2^2 + \
+(($CellContext`d1 $CellContext`d2) $CellContext`k^2) (10 - 
            13 $CellContext`\[Alpha]12))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "2"]}], "+", 
@@ -2199,16 +2280,17 @@ $CellContext`d1 $CellContext`d2 $CellContext`k^2 (10 -
       SeriesData[$CellContext`\[Zeta], 
        0, {$CellContext`a^Rational[3, 2] (
          3 $CellContext`ft - ($CellContext`d1 $CellContext`fd2 + \
-$CellContext`d2 $CellContext`gd1) $CellContext`\[Alpha]12), $CellContext`a^
-         Rational[1, 2] $CellContext`k^(-2) $CellContext`k2^(-2) (
-         9 $CellContext`ft $CellContext`k2^2 + $CellContext`k^2 (
-           2 $CellContext`ftr $CellContext`k2^2 + $CellContext`d2 (
-             3 $CellContext`fd1 + 4 $CellContext`gd1 - 
-             7 $CellContext`gd1 $CellContext`\[Alpha]12 - $CellContext`gdr1 \
-$CellContext`k2^2 $CellContext`\[Alpha]12) + $CellContext`d1 (
-             4 $CellContext`d2 $CellContext`d3 + 
-             9 $CellContext`fd2 + $CellContext`gd2 - (
-              4 $CellContext`d2 $CellContext`d3 + 
+$CellContext`d2 $CellContext`gd1) $CellContext`\[Alpha]12), (($CellContext`a^
+           Rational[1, 2] $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+           9 $CellContext`ft) $CellContext`k2^2 + $CellContext`k^2 ((
+             2 $CellContext`ftr) $CellContext`k2^2 + $CellContext`d2 (
+             3 $CellContext`fd1 + 
+             4 $CellContext`gd1 - (
+              7 $CellContext`gd1) $CellContext`\[Alpha]12 - \
+($CellContext`gdr1 $CellContext`k2^2) $CellContext`\[Alpha]12) + \
+$CellContext`d1 ((4 $CellContext`d2) $CellContext`d3 + 
+             9 $CellContext`fd2 + $CellContext`gd2 - ((
+                4 $CellContext`d2) $CellContext`d3 + 
               3 $CellContext`fd2 + $CellContext`gd2 + $CellContext`fdr2 \
 $CellContext`k2^2) $CellContext`\[Alpha]12)))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
@@ -2222,42 +2304,47 @@ $CellContext`k2^2) $CellContext`\[Alpha]12)))}, 0, 2, 1],
    0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, 
     SeriesData[$CellContext`\[Zeta], 
      0, {$CellContext`a^Rational[1, 2] (
-       2 $CellContext`fd - $CellContext`d1 $CellContext`d2 $CellContext`\
-\[Alpha]12), 
-      Rational[1, 2] $CellContext`a^
-       Rational[-1, 2] $CellContext`k^(-2) $CellContext`k2^(-2) ((
-         9 $CellContext`fd + 
-         2 $CellContext`fdr $CellContext`k^2) $CellContext`k2^2 + \
-$CellContext`d1 $CellContext`d2 $CellContext`k^2 (10 - 
+       2 $CellContext`fd - ($CellContext`d1 $CellContext`d2) $CellContext`\
+\[Alpha]12), (((
+         Rational[1, 2] $CellContext`a^
+          Rational[-1, 2]) $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+         9 $CellContext`fd + (
+           2 $CellContext`fdr) $CellContext`k^2) $CellContext`k2^2 + \
+(($CellContext`d1 $CellContext`d2) $CellContext`k^2) (10 - 
          13 $CellContext`\[Alpha]12))}, 0, 2, 1], 
     SeriesData[$CellContext`\[Zeta], 
      0, {$CellContext`a^Rational[3, 2] (
        3 $CellContext`ft - ($CellContext`d1 $CellContext`fd2 + \
-$CellContext`d2 $CellContext`gd1) $CellContext`\[Alpha]12), $CellContext`a^
-       Rational[1, 2] $CellContext`k^(-2) $CellContext`k2^(-2) (
-       9 $CellContext`ft $CellContext`k2^2 + $CellContext`k^2 (
-         2 $CellContext`ftr $CellContext`k2^2 + $CellContext`d2 (
-           3 $CellContext`fd1 + 4 $CellContext`gd1 - 
-           7 $CellContext`gd1 $CellContext`\[Alpha]12 - $CellContext`gdr1 \
-$CellContext`k2^2 $CellContext`\[Alpha]12) + $CellContext`d1 (
-           4 $CellContext`d2 $CellContext`d3 + 
-           9 $CellContext`fd2 + $CellContext`gd2 - (
-            4 $CellContext`d2 $CellContext`d3 + 
+$CellContext`d2 $CellContext`gd1) $CellContext`\[Alpha]12), (($CellContext`a^
+         Rational[1, 2] $CellContext`k^(-2)) $CellContext`k2^(-2)) ((
+         9 $CellContext`ft) $CellContext`k2^2 + $CellContext`k^2 ((
+           2 $CellContext`ftr) $CellContext`k2^2 + $CellContext`d2 (
+           3 $CellContext`fd1 + 
+           4 $CellContext`gd1 - (
+            7 $CellContext`gd1) $CellContext`\[Alpha]12 - ($CellContext`gdr1 \
+$CellContext`k2^2) $CellContext`\[Alpha]12) + $CellContext`d1 ((
+             4 $CellContext`d2) $CellContext`d3 + 
+           9 $CellContext`fd2 + $CellContext`gd2 - ((
+              4 $CellContext`d2) $CellContext`d3 + 
             3 $CellContext`fd2 + $CellContext`gd2 + $CellContext`fdr2 \
 $CellContext`k2^2) $CellContext`\[Alpha]12)))}, 0, 2, 1]}, 1, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{
   3.736553630114009*^9, {3.73655368947921*^9, 3.736553716528493*^9}, 
-   3.744132064673738*^9, 3.74808832102796*^9}]
+   3.744132064673738*^9, 
+   3.74808832102796*^9},ExpressionUUID->"7bbb2650-9e56-41d8-9c5a-\
+a9f9b1b8ceeb"]
 }, Open  ]]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Integrator", "Section",
  CellChangeTimes->{{3.748096161368453*^9, 3.748096163160726*^9}, {
-  3.7644150172629023`*^9, 3.7644150222473917`*^9}}],
+  3.7644150172629023`*^9, 
+  3.7644150222473917`*^9}},ExpressionUUID->"ccfeaff7-45e8-412c-8890-\
+9d00b00c52eb"],
 
 Cell[CellGroupData[{
 
@@ -2287,7 +2374,9 @@ Cell[BoxData[
    3.748795150857664*^9}, {3.763728681988277*^9, 3.763728682650568*^9}, {
    3.76373923455827*^9, 3.763739235543345*^9}, {3.764330881275713*^9, 
    3.764330882005329*^9}, {3.764340311244198*^9, 3.764340317465062*^9}, {
-   3.764354154062875*^9, 3.764354154594079*^9}}],
+   3.764354154062875*^9, 
+   3.764354154594079*^9}},ExpressionUUID->"54f4f486-31ab-436e-8fbf-\
+590c2bc72527"],
 
 Cell[BoxData[
  FractionBox[
@@ -2297,14 +2386,17 @@ Cell[BoxData[
    3.748096658016336*^9, 3.7480966855328617`*^9}, {3.748795128917078*^9, 
    3.748795151828082*^9}, 3.763728683072545*^9, 3.763739236157332*^9, 
    3.7643308825137568`*^9, {3.76434031320577*^9, 3.764340318321224*^9}, 
-   3.7643541553752728`*^9}]
+   3.7643541553752728`*^9},ExpressionUUID->"81a64196-fd4a-46f6-94e1-\
+54432597e48c"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["New corrections with transverse velocity", "Section",
- CellChangeTimes->{{3.7637276657203703`*^9, 3.763727675025938*^9}}],
+ CellChangeTimes->{{3.7637276657203703`*^9, 
+  3.763727675025938*^9}},ExpressionUUID->"c0bc68de-5d13-492b-a958-\
+e625dfdf7ff4"],
 
 Cell[CellGroupData[{
 
@@ -2343,7 +2435,9 @@ Cell[BoxData[
       RowBox[{"\[Zeta]", ",", "0", ",", "1"}], "}"}]}], "]"}], "/.", 
    RowBox[{"\[Omega]", "\[Rule]", " ", "1"}]}], "//", 
   "FullSimplify"}]], "Input",
- CellChangeTimes->{{3.764090908880868*^9, 3.7640910072410173`*^9}}],
+ CellChangeTimes->{{3.764090908880868*^9, 
+  3.7640910072410173`*^9}},ExpressionUUID->"2d7c3dc6-6f48-4174-a3a4-\
+f688e010fe25"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2367,11 +2461,12 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       6 $CellContext`a^
-         Rational[-1, 
-           2] $CellContext`d1 $CellContext`d3 $CellContext`k13^(-2) \
-$CellContext`k3^(-2) ($CellContext`k13^2 + $CellContext`k3^2)}, 1, 2, 1],
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(((((
+             6 $CellContext`a^
+              Rational[-1, 
+                2]) $CellContext`d1) $CellContext`d3) $CellContext`k13^(-2)) \
+$CellContext`k3^(-2)) ($CellContext`k13^2 + $CellContext`k3^2)}, 1, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "2"]}], "+", 
    RowBox[{
@@ -2401,13 +2496,15 @@ $CellContext`k3^(-2) ($CellContext`k13^2 + $CellContext`k3^2)}, 1, 2, 1],
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       Rational[1, 2] $CellContext`a^Rational[1, 2] (
-         12 ($CellContext`d1 $CellContext`fd3 + $CellContext`d3 \
-$CellContext`gd1) $CellContext`k13^(-2) + (9 $CellContext`d1 $CellContext`fd3 + 
-           12 $CellContext`d3 $CellContext`gd1 + 
-           5 $CellContext`d1 $CellContext`gd3) $CellContext`k3^(-2))}, 1, 2, 
-       1],
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(Rational[1, 2] $CellContext`a^
+          Rational[1, 2]) ((
+           12 ($CellContext`d1 $CellContext`fd3 + $CellContext`d3 \
+$CellContext`gd1)) $CellContext`k13^(-2) + ((
+             9 $CellContext`d1) $CellContext`fd3 + (
+             12 $CellContext`d3) $CellContext`gd1 + (
+             5 $CellContext`d1) $CellContext`gd3) $CellContext`k3^(-2))}, 1, 
+       2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "3"]}], "+", 
    InterpretationBox[
@@ -2416,21 +2513,24 @@ $CellContext`gd1) $CellContext`k13^(-2) + (9 $CellContext`d1 $CellContext`fd3 +
     SeriesData[$CellContext`\[Epsilon], 0, {}, 2, 4, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 0, {
-    SeriesData[$CellContext`\[Zeta], 0, {
-     6 $CellContext`a^
-       Rational[-1, 
-         2] $CellContext`d1 $CellContext`d3 $CellContext`k13^(-2) \
-$CellContext`k3^(-2) ($CellContext`k13^2 + $CellContext`k3^2)}, 1, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     Rational[1, 2] $CellContext`a^Rational[1, 2] (
-       12 ($CellContext`d1 $CellContext`fd3 + $CellContext`d3 \
-$CellContext`gd1) $CellContext`k13^(-2) + (9 $CellContext`d1 $CellContext`fd3 + 
-         12 $CellContext`d3 $CellContext`gd1 + 
-         5 $CellContext`d1 $CellContext`gd3) $CellContext`k3^(-2))}, 1, 2, 
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(((((6 $CellContext`a^
+            Rational[-1, 
+              2]) $CellContext`d1) $CellContext`d3) $CellContext`k13^(-2)) \
+$CellContext`k3^(-2)) ($CellContext`k13^2 + $CellContext`k3^2)}, 1, 2, 1], 
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(Rational[1, 2] $CellContext`a^
+        Rational[1, 2]) ((
+         12 ($CellContext`d1 $CellContext`fd3 + $CellContext`d3 \
+$CellContext`gd1)) $CellContext`k13^(-2) + ((
+           9 $CellContext`d1) $CellContext`fd3 + (
+           12 $CellContext`d3) $CellContext`gd1 + (
+           5 $CellContext`d1) $CellContext`gd3) $CellContext`k3^(-2))}, 1, 2, 
      1]}, 2, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.7640909113742027`*^9, 3.764090965815646*^9}, 
-   3.764091008253481*^9}]
+   3.764091008253481*^9},ExpressionUUID->"5bc85b0e-7b93-4e79-9079-\
+049a0c408363"]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -2660,12 +2760,16 @@ Cell[BoxData[{
   3.763738268705474*^9}, {3.763738693670903*^9, 3.7637387041035013`*^9}, {
   3.7637551120198193`*^9, 3.763755137834497*^9}, {3.763755587424499*^9, 
   3.7637555906194*^9}, {3.763825967951261*^9, 3.763826051702882*^9}, {
-  3.76441614770009*^9, 3.764416150715024*^9}}],
+  3.76441614770009*^9, 
+  3.764416150715024*^9}},ExpressionUUID->"6950da8c-a2f8-4ff2-8bc7-\
+bbddcc73eb45"],
 
 Cell[CellGroupData[{
 
 Cell["ignore", "Subsection",
- CellChangeTimes->{{3.764415042002694*^9, 3.764415042811664*^9}}],
+ CellChangeTimes->{{3.764415042002694*^9, 
+  3.764415042811664*^9}},ExpressionUUID->"4d65cae4-6a34-4de6-a272-\
+daaa04ffecdb"],
 
 Cell[BoxData[
  RowBox[{
@@ -2684,7 +2788,9 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.763728230830266*^9, 3.763728244979806*^9}, {
   3.7637292337962427`*^9, 3.763729235919828*^9}, {3.763826152523901*^9, 
-  3.763826167188119*^9}, {3.764415081422216*^9, 3.764415081941741*^9}}],
+  3.763826167188119*^9}, {3.764415081422216*^9, 
+  3.764415081941741*^9}},ExpressionUUID->"35e16a34-09a2-4fe2-b134-\
+27282d5e03e5"],
 
 Cell[CellGroupData[{
 
@@ -2705,7 +2811,9 @@ Cell[BoxData[{
  CellChangeTimes->{{3.763728263646936*^9, 3.7637282670334587`*^9}, {
    3.7637283244310703`*^9, 3.763728328969326*^9}, 3.763728364217724*^9, {
    3.7637283964615383`*^9, 3.763728402794746*^9}, 3.7637389926565723`*^9, 
-   3.763755599014731*^9, 3.7638255850314198`*^9}],
+   3.763755599014731*^9, 
+   3.7638255850314198`*^9},ExpressionUUID->"db2d7ce0-2de9-4db4-b5d9-\
+97d88456d2cb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3044,93 +3152,100 @@ Cell[BoxData[
     SeriesData[$CellContext`\[Epsilon], 0, {}, 3, 5, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
-   0, {(-3) $CellContext`a^(-3) $CellContext`d1 $CellContext`d2 \
-$CellContext`d3 $CellContext`k1^(-2) $CellContext`k13^(-4) \
-$CellContext`k2^(-2) $CellContext`k3^(-2) $CellContext`\[Zeta] \
+   0, {(((((((((((-3) $CellContext`a^(-3)) $CellContext`d1) $CellContext`d2) \
+$CellContext`d3) $CellContext`k1^(-2)) $CellContext`k13^(-4)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) $CellContext`\[Zeta]) \
 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
-$CellContext`\[Kappa]213) (
-     9 $CellContext`\[Zeta]^2 $CellContext`\[Omega] + $CellContext`a^2 (
-       7 $CellContext`k2^2 + 
-       4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + 
-     3 $CellContext`a $CellContext`\[Zeta] (
+$CellContext`\[Kappa]213)) ((
+       9 $CellContext`\[Zeta]^2) $CellContext`\[Omega] + ($CellContext`a^2 (
+        7 $CellContext`k2^2 + 
+        4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + $CellContext`k3^2 \
+$CellContext`\[Omega]) + ((3 $CellContext`a) $CellContext`\[Zeta]) (
        3 $CellContext`k13^2 + (5 $CellContext`k2^2 + 3 $CellContext`k3^2 + 
-         4 $CellContext`\[Kappa]213) $CellContext`\[Omega])), 
-    Rational[1, 
-      4] $CellContext`a^(-3) $CellContext`k1^(-2) $CellContext`k13^(-4) \
-$CellContext`k2^(-2) $CellContext`k3^(-2) $CellContext`\[Zeta] ((-12) \
-$CellContext`d2 $CellContext`d3 ($CellContext`k13^2 $CellContext`\[Kappa]12 - \
-$CellContext`\[Kappa]113 $CellContext`\[Kappa]213) (
-       9 $CellContext`gdr1 $CellContext`\[Zeta]^3 $CellContext`\[Omega] + \
-$CellContext`a^3 $CellContext`gd1 (9 $CellContext`k2^2 + 
-         4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + 
-       3 $CellContext`a $CellContext`\[Zeta]^2 (
-         9 $CellContext`gd1 $CellContext`\[Omega] + $CellContext`gdr1 (
-           3 $CellContext`k13^2 + 5 $CellContext`k2^2 $CellContext`\[Omega] + 
-           3 $CellContext`k3^2 $CellContext`\[Omega] + 
-           
-           4 $CellContext`\[Kappa]213 $CellContext`\[Omega])) + \
-$CellContext`a^2 $CellContext`\[Zeta] ($CellContext`gdr1 (7 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
-$CellContext`k3^2 $CellContext`\[Omega]) + 
-         3 $CellContext`gd1 (5 $CellContext`k13^2 + 
-           7 $CellContext`k2^2 $CellContext`\[Omega] + 
-           5 $CellContext`k3^2 $CellContext`\[Omega] + 
-           4 $CellContext`\[Kappa]213 $CellContext`\[Omega]))) + \
-$CellContext`a $CellContext`d1 $CellContext`k134^(-2) $CellContext`k4^(-2) (
-       9 $CellContext`k134^2 $CellContext`k4^2 $CellContext`\[Zeta]^2 \
+         4 $CellContext`\[Kappa]213) $CellContext`\[Omega])), ((((((
+          Rational[
+           1, 4] $CellContext`a^(-3)) $CellContext`k1^(-2)) \
+$CellContext`k13^(-4)) $CellContext`k2^(-2)) $CellContext`k3^(-2)) \
+$CellContext`\[Zeta]) (((((-12) $CellContext`d2) $CellContext`d3) \
 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
-$CellContext`\[Kappa]213) ((-3) $CellContext`d2 $CellContext`gdr3 \
-$CellContext`k13^2 - 
-         4 ($CellContext`d3 (3 $CellContext`fdr2 + 
-            2 $CellContext`gdr2) $CellContext`k2^2 + 
-          3 $CellContext`d2 $CellContext`fdr3 $CellContext`k3^2 + 
-          4 $CellContext`d3 $CellContext`gdr2 $CellContext`\[Kappa]213) \
-$CellContext`\[Omega]) - 
-       3 $CellContext`a $CellContext`\[Zeta] ($CellContext`d2 \
-($CellContext`k13^2 $CellContext`k134^2 $CellContext`k4^2 (
-            45 $CellContext`fd3 + 25 $CellContext`gd3 + 
-            7 $CellContext`gdr3 $CellContext`k2^2 + 
-            4 $CellContext`gdr3 $CellContext`\[Kappa]213) ($CellContext`k13^2 \
-$CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) + 
-          5 $CellContext`d3 $CellContext`d4 $CellContext`k13^4 \
+$CellContext`\[Kappa]213)) (((
+          9 $CellContext`gdr1) $CellContext`\[Zeta]^3) $CellContext`\[Omega] + \
+(($CellContext`a^3 $CellContext`gd1) (9 $CellContext`k2^2 + 
+          4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + ((
+          3 $CellContext`a) $CellContext`\[Zeta]^2) ((
+           9 $CellContext`gd1) $CellContext`\[Omega] + $CellContext`gdr1 (
+           3 $CellContext`k13^2 + (
+             5 $CellContext`k2^2) $CellContext`\[Omega] + (
+             3 $CellContext`k3^2) $CellContext`\[Omega] + (
+             4 $CellContext`\[Kappa]213) $CellContext`\[Omega])) + \
+($CellContext`a^2 $CellContext`\[Zeta]) (($CellContext`gdr1 (
+            7 $CellContext`k2^2 + 
+            4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + (3 $CellContext`gd1) (
+           5 $CellContext`k13^2 + (
+             7 $CellContext`k2^2) $CellContext`\[Omega] + (
+             5 $CellContext`k3^2) $CellContext`\[Omega] + (
+             4 $CellContext`\[Kappa]213) $CellContext`\[Omega]))) + \
+((($CellContext`a $CellContext`d1) $CellContext`k134^(-2)) \
+$CellContext`k4^(-2)) (((((
+            9 $CellContext`k134^2) $CellContext`k4^2) $CellContext`\[Zeta]^2) \
+($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
+$CellContext`\[Kappa]213)) ((((-3) $CellContext`d2) $CellContext`gdr3) \
+$CellContext`k13^2 - (
+          4 (($CellContext`d3 (3 $CellContext`fdr2 + 
+              2 $CellContext`gdr2)) $CellContext`k2^2 + ((
+              3 $CellContext`d2) $CellContext`fdr3) $CellContext`k3^2 + ((
+              4 $CellContext`d3) $CellContext`gdr2) \
+$CellContext`\[Kappa]213)) $CellContext`\[Omega]) - ((
+         3 $CellContext`a) $CellContext`\[Zeta]) ($CellContext`d2 \
+(((($CellContext`k13^2 $CellContext`k134^2) $CellContext`k4^2) (
+             45 $CellContext`fd3 + 
+             25 $CellContext`gd3 + (7 $CellContext`gdr3) $CellContext`k2^2 + (
+               4 $CellContext`gdr3) $CellContext`\[Kappa]213)) \
+($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
+$CellContext`\[Kappa]213) + ((((
+               5 $CellContext`d3) $CellContext`d4) $CellContext`k13^4) \
 ($CellContext`k134^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]1134 \
-$CellContext`\[Kappa]2134) $CellContext`\[Kappa]34 + 
-          4 $CellContext`k134^2 $CellContext`k3^2 $CellContext`k4^2 (
-            15 $CellContext`fd3 + 7 $CellContext`fdr3 $CellContext`k2^2 + 
-            4 $CellContext`fdr3 $CellContext`\[Kappa]213) ($CellContext`k13^2 \
-$CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
-$CellContext`\[Omega]) + 
-        4 $CellContext`d3 $CellContext`k134^2 $CellContext`k4^2 \
+$CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 + (((((
+                4 $CellContext`k134^2) $CellContext`k3^2) $CellContext`k4^2) (
+              15 $CellContext`fd3 + (
+                7 $CellContext`fdr3) $CellContext`k2^2 + (
+                4 $CellContext`fdr3) $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
-$CellContext`\[Kappa]213) (
-          3 ((5 $CellContext`fd2 + 2 $CellContext`gd2) $CellContext`k2^2 + 
-            4 $CellContext`gd2 $CellContext`\[Kappa]213) \
-$CellContext`\[Omega] + 
-          5 $CellContext`fdr2 $CellContext`k2^2 ($CellContext`k13^2 + \
-$CellContext`k3^2 $CellContext`\[Omega]) + 
-          2 $CellContext`gdr2 ($CellContext`k2^2 + 
-            2 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
+$CellContext`\[Kappa]213)) $CellContext`\[Omega]) + ((((
+             
+             4 $CellContext`d3) $CellContext`k134^2) $CellContext`k4^2) \
+($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
+$CellContext`\[Kappa]213)) ((
+            3 ((5 $CellContext`fd2 + 2 $CellContext`gd2) $CellContext`k2^2 + (
+               4 $CellContext`gd2) $CellContext`\[Kappa]213)) $CellContext`\
+\[Omega] + ((
+             5 $CellContext`fdr2) $CellContext`k2^2) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + ((
+             2 $CellContext`gdr2) ($CellContext`k2^2 + 
+             2 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
 $CellContext`k3^2 $CellContext`\[Omega]))) + $CellContext`a^2 \
-($CellContext`d2 $CellContext`k134^2 $CellContext`k4^2 (9 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) ((
-             9 $CellContext`fd3 + 5 $CellContext`gd3) $CellContext`k13^2 + 
-           12 $CellContext`fd3 $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d3 ($CellContext`d2 $CellContext`d4 $CellContext`k13^4 (
+((((($CellContext`d2 $CellContext`k134^2) $CellContext`k4^2) (
              9 $CellContext`k2^2 + 
-             4 $CellContext`\[Kappa]2134) (-$CellContext`k134^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]1134 $CellContext`\[Kappa]2134) \
-$CellContext`\[Kappa]34 - 
-           84 $CellContext`fd2 $CellContext`k134^2 $CellContext`k2^2 \
-$CellContext`k4^2 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\
-\[Kappa]113 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + 
-           24 $CellContext`gd2 $CellContext`k134^2 $CellContext`k4^2 \
+             4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
+((9 $CellContext`fd3 + 
+             5 $CellContext`gd3) $CellContext`k13^2 + ((
+              12 $CellContext`fd3) $CellContext`k3^2) $CellContext`\[Omega]) + \
+$CellContext`d3 ((((($CellContext`d2 $CellContext`d4) $CellContext`k13^4) (
+               9 $CellContext`k2^2 + 
+               4 $CellContext`\[Kappa]2134)) ((-$CellContext`k134^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]1134 \
+$CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 - (((((
+                84 $CellContext`fd2) $CellContext`k134^2) $CellContext`k2^2) \
+$CellContext`k4^2) ($CellContext`k13^2 $CellContext`\[Kappa]12 - \
+$CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + (((((
+                 24 $CellContext`gd2) $CellContext`k134^2) $CellContext`k4^2) \
 ($CellContext`k2^2 + 
-             2 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+               2 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega])))))}, 3, 5, 1],
   
   Editable->False]], "Output",
@@ -3140,7 +3255,8 @@ $CellContext`\[Omega]) +
    3.76373806587255*^9, 3.763738098228532*^9}, 3.763738274157319*^9, 
    3.763738734111442*^9, 3.763739127425864*^9, 3.763755177144375*^9, {
    3.7637555848897247`*^9, 3.763755599956349*^9}, 3.763825601356357*^9, 
-   3.763825712261159*^9}],
+   3.763825712261159*^9},ExpressionUUID->"63664e94-eeba-42bc-8c82-\
+114e8be67180"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3178,12 +3294,13 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       3 $CellContext`a^(-1) $CellContext`d1 $CellContext`d2 $CellContext`d3 \
-$CellContext`k1^(-2) $CellContext`k13^(-4) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) (7 $CellContext`k2^2 + 
-         4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+      SeriesData[$CellContext`\[Zeta], 
+       0, {((((((((((
+                  3/$CellContext`a) $CellContext`d1) $CellContext`d2) \
+$CellContext`d3) $CellContext`k1^(-2)) $CellContext`k13^(-4)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) (7 $CellContext`k2^2 + 
+           4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) $CellContext`\
+\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega])}, 1, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "3"]}], "+", 
@@ -3307,34 +3424,37 @@ $CellContext`k3^(-2) (7 $CellContext`k2^2 +
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       Rational[
-         1, 4] $CellContext`k1^(-2) $CellContext`k13^(-4) \
-$CellContext`k2^(-2) $CellContext`k3^(-2) (
-         12 $CellContext`d2 $CellContext`d3 $CellContext`gd1 (
-           9 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+      SeriesData[$CellContext`\[Zeta], 
+       0, {((((Rational[
+             1, 4] $CellContext`k1^(-2)) $CellContext`k13^(-4)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) ((((((
+               12 $CellContext`d2) $CellContext`d3) $CellContext`gd1) (
+             9 $CellContext`k2^2 + 
+             4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d1 $CellContext`k134^(-2) $CellContext`k4^(-2) ($CellContext`d2 \
-$CellContext`k134^2 $CellContext`k4^2 (9 $CellContext`k2^2 + 
-             4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) ((
-               9 $CellContext`fd3 + 5 $CellContext`gd3) $CellContext`k13^2 + 
-             12 $CellContext`fd3 $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d3 ($CellContext`d2 $CellContext`d4 $CellContext`k13^4 (
+(($CellContext`d1 $CellContext`k134^(-2)) $CellContext`k4^(-2)) \
+((((($CellContext`d2 $CellContext`k134^2) $CellContext`k4^2) (
                9 $CellContext`k2^2 + 
-               4 $CellContext`\[Kappa]2134) (-$CellContext`k134^2 \
+               4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
+((9 $CellContext`fd3 + 
+               5 $CellContext`gd3) $CellContext`k13^2 + ((
+                12 $CellContext`fd3) $CellContext`k3^2) \
+$CellContext`\[Omega]) + $CellContext`d3 ((((($CellContext`d2 \
+$CellContext`d4) $CellContext`k13^4) (9 $CellContext`k2^2 + 
+                 
+                 4 $CellContext`\[Kappa]2134)) ((-$CellContext`k134^2) \
 $CellContext`\[Kappa]12 + $CellContext`\[Kappa]1134 \
-$CellContext`\[Kappa]2134) $CellContext`\[Kappa]34 - 
-             84 $CellContext`fd2 $CellContext`k134^2 $CellContext`k2^2 \
-$CellContext`k4^2 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\
-\[Kappa]113 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + 
-             24 $CellContext`gd2 $CellContext`k134^2 $CellContext`k4^2 \
-($CellContext`k2^2 + 
-               2 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+$CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 - (((((
+                  84 $CellContext`fd2) $CellContext`k134^2) \
+$CellContext`k2^2) $CellContext`k4^2) ($CellContext`k13^2 $CellContext`\
+\[Kappa]12 - $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
+($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega]) + (((((
+                   24 $CellContext`gd2) $CellContext`k134^2) \
+$CellContext`k4^2) ($CellContext`k2^2 + 
+                 2 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega]))))}, 1, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "4"]}], "+", 
@@ -3344,42 +3464,44 @@ $CellContext`\[Omega]) +
     SeriesData[$CellContext`\[Epsilon], 0, {}, 3, 5, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 0, {
-    SeriesData[$CellContext`\[Zeta], 0, {
-     3 $CellContext`a^(-1) $CellContext`d1 $CellContext`d2 $CellContext`d3 \
-$CellContext`k1^(-2) $CellContext`k13^(-4) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) (7 $CellContext`k2^2 + 
-       4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 \
-$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+    SeriesData[$CellContext`\[Zeta], 
+     0, {((((((((((
+                3/$CellContext`a) $CellContext`d1) $CellContext`d2) \
+$CellContext`d3) $CellContext`k1^(-2)) $CellContext`k13^(-4)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) (7 $CellContext`k2^2 + 
+         4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) $CellContext`\
+\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega])}, 1, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     Rational[1, 
-        4] $CellContext`k1^(-2) $CellContext`k13^(-4) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) (
-       12 $CellContext`d2 $CellContext`d3 $CellContext`gd1 (
-         9 $CellContext`k2^2 + 
-         4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+    SeriesData[$CellContext`\[Zeta], 
+     0, {((((Rational[
+           1, 4] $CellContext`k1^(-2)) $CellContext`k13^(-4)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) ((((((
+             12 $CellContext`d2) $CellContext`d3) $CellContext`gd1) (
+           9 $CellContext`k2^2 + 
+           4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) $CellContext`\
+\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d1 $CellContext`k134^(-2) $CellContext`k4^(-2) ($CellContext`d2 \
-$CellContext`k134^2 $CellContext`k4^2 (9 $CellContext`k2^2 + 
-           
-           4 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) ((
-             9 $CellContext`fd3 + 5 $CellContext`gd3) $CellContext`k13^2 + 
-           12 $CellContext`fd3 $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d3 ($CellContext`d2 $CellContext`d4 $CellContext`k13^4 (
+(($CellContext`d1 $CellContext`k134^(-2)) $CellContext`k4^(-2)) \
+((((($CellContext`d2 $CellContext`k134^2) $CellContext`k4^2) (
              9 $CellContext`k2^2 + 
-             4 $CellContext`\[Kappa]2134) (-$CellContext`k134^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]1134 $CellContext`\[Kappa]2134) \
-$CellContext`\[Kappa]34 - 
-           84 $CellContext`fd2 $CellContext`k134^2 $CellContext`k2^2 \
-$CellContext`k4^2 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\
-\[Kappa]113 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + 
-           24 $CellContext`gd2 $CellContext`k134^2 $CellContext`k4^2 \
+             4 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
+((9 $CellContext`fd3 + 
+             5 $CellContext`gd3) $CellContext`k13^2 + ((
+              12 $CellContext`fd3) $CellContext`k3^2) $CellContext`\[Omega]) + \
+$CellContext`d3 ((((($CellContext`d2 $CellContext`d4) $CellContext`k13^4) (
+               9 $CellContext`k2^2 + 
+               4 $CellContext`\[Kappa]2134)) ((-$CellContext`k134^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]1134 \
+$CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 - (((((
+                84 $CellContext`fd2) $CellContext`k134^2) $CellContext`k2^2) \
+$CellContext`k4^2) ($CellContext`k13^2 $CellContext`\[Kappa]12 - \
+$CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + (((((
+                 24 $CellContext`gd2) $CellContext`k134^2) $CellContext`k4^2) \
 ($CellContext`k2^2 + 
-             2 $CellContext`\[Kappa]213) (-$CellContext`k13^2 $CellContext`\
-\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
+               2 $CellContext`\[Kappa]213)) ((-$CellContext`k13^2) \
+$CellContext`\[Kappa]12 + $CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega]))))}, 1, 2, 1]},
     3, 5, 1],
   Editable->False]], "Output",
@@ -3389,14 +3511,17 @@ $CellContext`\[Omega]) +
    3.76373806587255*^9, 3.763738098228532*^9}, 3.763738274157319*^9, 
    3.763738734111442*^9, 3.763739127425864*^9, 3.763755177144375*^9, {
    3.7637555848897247`*^9, 3.763755599956349*^9}, 3.763825601356357*^9, 
-   3.763825714501946*^9}]
+   3.763825714501946*^9},ExpressionUUID->"98a5a69b-52e7-4720-94d0-\
+05f70c2f2e2c"]
 }, Open  ]]
 }, Closed]],
 
 Cell[CellGroupData[{
 
 Cell["Not ignore", "Subsection",
- CellChangeTimes->{{3.76441505971614*^9, 3.764415062372033*^9}}],
+ CellChangeTimes->{{3.76441505971614*^9, 
+  3.764415062372033*^9}},ExpressionUUID->"735573a4-eb67-4bd8-bd6a-\
+06b499951386"],
 
 Cell[CellGroupData[{
 
@@ -3429,7 +3554,9 @@ Cell[BoxData[{
      RowBox[{"\[Zeta]", ",", "0", ",", "1"}], "}"}]}], "]"}], "]"}]}], "Input",\
 
  CellChangeTimes->{{3.7638261811073437`*^9, 3.763826187109293*^9}, {
-  3.764415086225256*^9, 3.764415087791828*^9}}],
+  3.764415086225256*^9, 
+  3.764415087791828*^9}},ExpressionUUID->"a984c8ba-dae0-4a1f-a7cc-\
+9c0f23576eed"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3702,85 +3829,90 @@ Cell[BoxData[
     SeriesData[$CellContext`\[Epsilon], 0, {}, 3, 5, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
-   0, {(-3) $CellContext`a^(-3) $CellContext`d1 $CellContext`d2 \
-$CellContext`d3 $CellContext`k13^(-2) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) $CellContext`p1213 $CellContext`\[Zeta] (
-     9 $CellContext`\[Zeta]^2 $CellContext`\[Omega] + $CellContext`a^2 (
-       7 $CellContext`k2^2 + 
-       4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + 
-     3 $CellContext`a $CellContext`\[Zeta] (
+   0, {((((((((((-3) $CellContext`a^(-3)) $CellContext`d1) $CellContext`d2) \
+$CellContext`d3) $CellContext`k13^(-2)) $CellContext`k2^(-2)) \
+$CellContext`k3^(-2)) $CellContext`p1213) $CellContext`\[Zeta]) ((
+       9 $CellContext`\[Zeta]^2) $CellContext`\[Omega] + ($CellContext`a^2 (
+        7 $CellContext`k2^2 + 
+        4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + $CellContext`k3^2 \
+$CellContext`\[Omega]) + ((3 $CellContext`a) $CellContext`\[Zeta]) (
        3 $CellContext`k13^2 + (5 $CellContext`k2^2 + 3 $CellContext`k3^2 + 
-         4 $CellContext`\[Kappa]213) $CellContext`\[Omega])), 
-    Rational[-1, 
-      4] $CellContext`a^(-3) $CellContext`k13^(-2) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) $CellContext`k4^(-2) $CellContext`\[Zeta] (
-     108 $CellContext`d2 $CellContext`d3 $CellContext`gdr1 $CellContext`k4^2 \
-$CellContext`p1213 $CellContext`\[Zeta]^3 $CellContext`\[Omega] + 
-     9 $CellContext`a $CellContext`k4^2 $CellContext`p1213 $CellContext`\
-\[Zeta]^2 (
-       3 $CellContext`d2 (
-         4 $CellContext`d3 $CellContext`gdr1 + $CellContext`d1 \
-$CellContext`gdr3) $CellContext`k13^2 + 
-       4 $CellContext`d1 $CellContext`d3 ((3 $CellContext`fdr2 + 
-           2 $CellContext`gdr2) $CellContext`k2^2 + 
-         4 $CellContext`gdr2 $CellContext`\[Kappa]213) $CellContext`\[Omega] + 
-       4 $CellContext`d2 (
-         3 $CellContext`d1 $CellContext`fdr3 $CellContext`k3^2 + \
-$CellContext`d3 (9 $CellContext`gd1 + 5 $CellContext`gdr1 $CellContext`k2^2 + 
-           3 $CellContext`gdr1 $CellContext`k3^2 + 
-           4 $CellContext`gdr1 $CellContext`\[Kappa]213)) $CellContext`\
-\[Omega]) + 
-     3 $CellContext`a^2 $CellContext`\[Zeta] ($CellContext`d1 \
-$CellContext`k13^2 ($CellContext`k4^2 $CellContext`p1213 (
-           4 $CellContext`d3 ((5 $CellContext`fdr2 + 
-               2 $CellContext`gdr2) $CellContext`k2^2 + 
-             4 $CellContext`gdr2 $CellContext`\[Kappa]213) + $CellContext`d2 (
-             45 $CellContext`fd3 + 25 $CellContext`gd3 + 
-             7 $CellContext`gdr3 $CellContext`k2^2 + 
-             4 $CellContext`gdr3 $CellContext`\[Kappa]213)) + 
-         5 $CellContext`d2 $CellContext`d3 $CellContext`d4 \
-$CellContext`p12134 $CellContext`\[Kappa]34) + 
-       4 $CellContext`d1 $CellContext`k4^2 $CellContext`p1213 \
-($CellContext`d3 $CellContext`k2^2 (15 $CellContext`fd2 + 
-           6 $CellContext`gd2 + (5 $CellContext`fdr2 + 
-             2 $CellContext`gdr2) $CellContext`k3^2) + 
-         4 $CellContext`d3 (
-           3 $CellContext`gd2 + $CellContext`gdr2 $CellContext`k3^2) \
-$CellContext`\[Kappa]213 + $CellContext`d2 $CellContext`k3^2 (
-           15 $CellContext`fd3 + 7 $CellContext`fdr3 $CellContext`k2^2 + 
-           4 $CellContext`fdr3 $CellContext`\[Kappa]213)) $CellContext`\
-\[Omega] + 
-       4 $CellContext`d2 $CellContext`d3 $CellContext`k4^2 $CellContext`p1213 \
-($CellContext`gdr1 (7 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
-$CellContext`k3^2 $CellContext`\[Omega]) + 
-         3 $CellContext`gd1 (5 $CellContext`k13^2 + 
-           7 $CellContext`k2^2 $CellContext`\[Omega] + 
-           5 $CellContext`k3^2 $CellContext`\[Omega] + 
-           4 $CellContext`\[Kappa]213 $CellContext`\[Omega]))) + \
-$CellContext`a^3 (
-       12 $CellContext`d2 $CellContext`d3 $CellContext`gd1 $CellContext`k4^2 \
-$CellContext`p1213 (9 $CellContext`k2^2 + 
-         4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + $CellContext`d1 ($CellContext`d2 $CellContext`k4^2 \
-$CellContext`p1213 (9 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) ((9 $CellContext`fd3 + 
-             5 $CellContext`gd3) $CellContext`k13^2 + 
-           12 $CellContext`fd3 $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d3 ($CellContext`d2 $CellContext`d4 $CellContext`k13^2 \
-$CellContext`p12134 (9 $CellContext`k2^2 + 
-             4 $CellContext`\[Kappa]2134) $CellContext`\[Kappa]34 + 
-           84 $CellContext`fd2 $CellContext`k2^2 $CellContext`k4^2 \
-$CellContext`p1213 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\
-\[Omega]) + 
-           24 $CellContext`gd2 $CellContext`k4^2 $CellContext`p1213 \
+         4 $CellContext`\[Kappa]213) $CellContext`\[Omega])), ((((((
+          Rational[-1, 
+            4] $CellContext`a^(-3)) $CellContext`k13^(-2)) \
+$CellContext`k2^(-2)) $CellContext`k3^(-2)) $CellContext`k4^(-2)) \
+$CellContext`\[Zeta]) (((((((
+            108 $CellContext`d2) $CellContext`d3) $CellContext`gdr1) \
+$CellContext`k4^2) $CellContext`p1213) $CellContext`\[Zeta]^3) $CellContext`\
+\[Omega] + ((((
+          9 $CellContext`a) $CellContext`k4^2) $CellContext`p1213) \
+$CellContext`\[Zeta]^2) (((
+          3 $CellContext`d2) ((
+            4 $CellContext`d3) $CellContext`gdr1 + $CellContext`d1 \
+$CellContext`gdr3)) $CellContext`k13^2 + (((
+           4 $CellContext`d1) $CellContext`d3) ((3 $CellContext`fdr2 + 
+            2 $CellContext`gdr2) $CellContext`k2^2 + (
+            4 $CellContext`gdr2) $CellContext`\[Kappa]213)) $CellContext`\
+\[Omega] + ((
+          4 $CellContext`d2) (((
+             3 $CellContext`d1) $CellContext`fdr3) $CellContext`k3^2 + \
+$CellContext`d3 (
+            9 $CellContext`gd1 + (5 $CellContext`gdr1) $CellContext`k2^2 + (
+              3 $CellContext`gdr1) $CellContext`k3^2 + (
+              4 $CellContext`gdr1) $CellContext`\[Kappa]213))) $CellContext`\
+\[Omega]) + ((
+        3 $CellContext`a^2) $CellContext`\[Zeta]) (($CellContext`d1 \
+$CellContext`k13^2) (($CellContext`k4^2 $CellContext`p1213) ((
+             4 $CellContext`d3) ((5 $CellContext`fdr2 + 
+               2 $CellContext`gdr2) $CellContext`k2^2 + (
+               4 $CellContext`gdr2) $CellContext`\[Kappa]213) + \
+$CellContext`d2 (45 $CellContext`fd3 + 
+             25 $CellContext`gd3 + (7 $CellContext`gdr3) $CellContext`k2^2 + (
+               4 $CellContext`gdr3) $CellContext`\[Kappa]213)) + ((((
+              5 $CellContext`d2) $CellContext`d3) $CellContext`d4) \
+$CellContext`p12134) $CellContext`\[Kappa]34) + ((((
+            4 $CellContext`d1) $CellContext`k4^2) $CellContext`p1213) \
+(($CellContext`d3 $CellContext`k2^2) (15 $CellContext`fd2 + 
+            6 $CellContext`gd2 + (5 $CellContext`fdr2 + 
+              2 $CellContext`gdr2) $CellContext`k3^2) + ((4 $CellContext`d3) (
+             3 $CellContext`gd2 + $CellContext`gdr2 $CellContext`k3^2)) \
+$CellContext`\[Kappa]213 + ($CellContext`d2 $CellContext`k3^2) (
+            15 $CellContext`fd3 + (7 $CellContext`fdr3) $CellContext`k2^2 + (
+              4 $CellContext`fdr3) $CellContext`\[Kappa]213))) $CellContext`\
+\[Omega] + ((((
+            4 $CellContext`d2) $CellContext`d3) $CellContext`k4^2) \
+$CellContext`p1213) (($CellContext`gdr1 (7 $CellContext`k2^2 + 
+            4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + (3 $CellContext`gd1) (
+           5 $CellContext`k13^2 + (
+             7 $CellContext`k2^2) $CellContext`\[Omega] + (
+             5 $CellContext`k3^2) $CellContext`\[Omega] + (
+             4 $CellContext`\[Kappa]213) $CellContext`\[Omega]))) + \
+$CellContext`a^3 (((((((
+              12 $CellContext`d2) $CellContext`d3) $CellContext`gd1) \
+$CellContext`k4^2) $CellContext`p1213) (9 $CellContext`k2^2 + 
+          4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + $CellContext`d1 \
+(((($CellContext`d2 $CellContext`k4^2) $CellContext`p1213) (
+            9 $CellContext`k2^2 + 
+            4 $CellContext`\[Kappa]213)) ((9 $CellContext`fd3 + 
+             5 $CellContext`gd3) $CellContext`k13^2 + ((
+              12 $CellContext`fd3) $CellContext`k3^2) $CellContext`\[Omega]) + \
+$CellContext`d3 ((((($CellContext`d2 $CellContext`d4) $CellContext`k13^2) \
+$CellContext`p12134) (9 $CellContext`k2^2 + 
+              4 $CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 + ((((
+                84 $CellContext`fd2) $CellContext`k2^2) $CellContext`k4^2) \
+$CellContext`p1213) ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\
+\[Omega]) + ((((
+                24 $CellContext`gd2) $CellContext`k4^2) $CellContext`p1213) \
 ($CellContext`k2^2 + 
-             2 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
+              2 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
 $CellContext`k3^2 $CellContext`\[Omega])))))}, 3, 5, 1],
   Editable->False]], "Output",
  CellChangeTimes->{
-  3.763826226125745*^9, {3.764415071626307*^9, 3.764415097161579*^9}}],
+  3.763826226125745*^9, {3.764415071626307*^9, 
+   3.764415097161579*^9}},ExpressionUUID->"d667c8cc-e4a7-48fd-9e9f-\
+79bbf27cd93c"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3815,11 +3947,11 @@ Cell[BoxData[
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
       SeriesData[$CellContext`\[Zeta], 
-       0, {(-3) $CellContext`a^(-1) $CellContext`d1 $CellContext`d2 \
-$CellContext`d3 $CellContext`k13^(-2) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) $CellContext`p1213 (7 $CellContext`k2^2 + 
-         4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega])}, 1, 2, 1],
+       0, {((((((((((-3)/$CellContext`a) $CellContext`d1) $CellContext`d2) \
+$CellContext`d3) $CellContext`k13^(-2)) $CellContext`k2^(-2)) \
+$CellContext`k3^(-2)) $CellContext`p1213) (7 $CellContext`k2^2 + 
+          4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega])}, 1, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "3"]}], "+", 
    RowBox[{
@@ -3910,27 +4042,29 @@ $CellContext`\[Omega])}, 1, 2, 1],
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 1, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       Rational[-1, 
-          4] $CellContext`k13^(-2) $CellContext`k2^(-2) $CellContext`k3^(-2) \
-$CellContext`k4^(-2) (
-         12 $CellContext`d2 $CellContext`d3 $CellContext`gd1 \
-$CellContext`k4^2 $CellContext`p1213 (9 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
-$CellContext`k3^2 $CellContext`\[Omega]) + $CellContext`d1 ($CellContext`d2 \
-$CellContext`k4^2 $CellContext`p1213 (9 $CellContext`k2^2 + 
-             4 $CellContext`\[Kappa]213) ((9 $CellContext`fd3 + 
-               5 $CellContext`gd3) $CellContext`k13^2 + 
-             12 $CellContext`fd3 $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d3 ($CellContext`d2 $CellContext`d4 $CellContext`k13^2 \
-$CellContext`p12134 (9 $CellContext`k2^2 + 
-               4 $CellContext`\[Kappa]2134) $CellContext`\[Kappa]34 + 
-             84 $CellContext`fd2 $CellContext`k2^2 $CellContext`k4^2 \
-$CellContext`p1213 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\
-\[Omega]) + 
-             24 $CellContext`gd2 $CellContext`k4^2 $CellContext`p1213 \
+      SeriesData[$CellContext`\[Zeta], 
+       0, {((((Rational[-1, 
+              4] $CellContext`k13^(-2)) $CellContext`k2^(-2)) \
+$CellContext`k3^(-2)) $CellContext`k4^(-2)) (((((((
+                12 $CellContext`d2) $CellContext`d3) $CellContext`gd1) \
+$CellContext`k4^2) $CellContext`p1213) (9 $CellContext`k2^2 + 
+            4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + $CellContext`d1 \
+(((($CellContext`d2 $CellContext`k4^2) $CellContext`p1213) (
+              9 $CellContext`k2^2 + 
+              4 $CellContext`\[Kappa]213)) ((9 $CellContext`fd3 + 
+               5 $CellContext`gd3) $CellContext`k13^2 + ((
+                12 $CellContext`fd3) $CellContext`k3^2) \
+$CellContext`\[Omega]) + $CellContext`d3 ((((($CellContext`d2 \
+$CellContext`d4) $CellContext`k13^2) $CellContext`p12134) (
+                9 $CellContext`k2^2 + 
+                4 $CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 + ((((
+                  84 $CellContext`fd2) $CellContext`k2^2) $CellContext`k4^2) \
+$CellContext`p1213) ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\
+\[Omega]) + ((((
+                  24 $CellContext`gd2) $CellContext`k4^2) $CellContext`p1213) \
 ($CellContext`k2^2 + 
-               2 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
+                2 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
 $CellContext`k3^2 $CellContext`\[Omega]))))}, 1, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "4"]}], "+", 
@@ -3941,36 +4075,40 @@ $CellContext`k3^2 $CellContext`\[Omega]))))}, 1, 2, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 0, {
     SeriesData[$CellContext`\[Zeta], 
-     0, {(-3) $CellContext`a^(-1) $CellContext`d1 $CellContext`d2 \
-$CellContext`d3 $CellContext`k13^(-2) $CellContext`k2^(-2) \
-$CellContext`k3^(-2) $CellContext`p1213 (7 $CellContext`k2^2 + 
-       4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
+     0, {((((((((((-3)/$CellContext`a) $CellContext`d1) $CellContext`d2) \
+$CellContext`d3) $CellContext`k13^(-2)) $CellContext`k2^(-2)) \
+$CellContext`k3^(-2)) $CellContext`p1213) (7 $CellContext`k2^2 + 
+        4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + $CellContext`k3^2 \
 $CellContext`\[Omega])}, 1, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     Rational[-1, 
-        4] $CellContext`k13^(-2) $CellContext`k2^(-2) $CellContext`k3^(-2) \
-$CellContext`k4^(-2) (
-       12 $CellContext`d2 $CellContext`d3 $CellContext`gd1 $CellContext`k4^2 \
-$CellContext`p1213 (9 $CellContext`k2^2 + 
-         4 $CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
-$CellContext`\[Omega]) + $CellContext`d1 ($CellContext`d2 $CellContext`k4^2 \
-$CellContext`p1213 (9 $CellContext`k2^2 + 
-           4 $CellContext`\[Kappa]213) ((9 $CellContext`fd3 + 
-             5 $CellContext`gd3) $CellContext`k13^2 + 
-           12 $CellContext`fd3 $CellContext`k3^2 $CellContext`\[Omega]) + \
-$CellContext`d3 ($CellContext`d2 $CellContext`d4 $CellContext`k13^2 \
-$CellContext`p12134 (9 $CellContext`k2^2 + 
-             4 $CellContext`\[Kappa]2134) $CellContext`\[Kappa]34 + 
-           84 $CellContext`fd2 $CellContext`k2^2 $CellContext`k4^2 \
-$CellContext`p1213 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\
-\[Omega]) + 
-           24 $CellContext`gd2 $CellContext`k4^2 $CellContext`p1213 \
+    SeriesData[$CellContext`\[Zeta], 
+     0, {((((Rational[-1, 
+            4] $CellContext`k13^(-2)) $CellContext`k2^(-2)) \
+$CellContext`k3^(-2)) $CellContext`k4^(-2)) (((((((
+              12 $CellContext`d2) $CellContext`d3) $CellContext`gd1) \
+$CellContext`k4^2) $CellContext`p1213) (9 $CellContext`k2^2 + 
+          4 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
+$CellContext`k3^2 $CellContext`\[Omega]) + $CellContext`d1 \
+(((($CellContext`d2 $CellContext`k4^2) $CellContext`p1213) (
+            9 $CellContext`k2^2 + 
+            4 $CellContext`\[Kappa]213)) ((9 $CellContext`fd3 + 
+             5 $CellContext`gd3) $CellContext`k13^2 + ((
+              12 $CellContext`fd3) $CellContext`k3^2) $CellContext`\[Omega]) + \
+$CellContext`d3 ((((($CellContext`d2 $CellContext`d4) $CellContext`k13^2) \
+$CellContext`p12134) (9 $CellContext`k2^2 + 
+              4 $CellContext`\[Kappa]2134)) $CellContext`\[Kappa]34 + ((((
+                
+                84 $CellContext`fd2) $CellContext`k2^2) $CellContext`k4^2) \
+$CellContext`p1213) ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\
+\[Omega]) + ((((
+                24 $CellContext`gd2) $CellContext`k4^2) $CellContext`p1213) \
 ($CellContext`k2^2 + 
-             2 $CellContext`\[Kappa]213) ($CellContext`k13^2 + \
+              2 $CellContext`\[Kappa]213)) ($CellContext`k13^2 + \
 $CellContext`k3^2 $CellContext`\[Omega]))))}, 1, 2, 1]}, 3, 5, 1],
   Editable->False]], "Output",
  CellChangeTimes->{
-  3.763826226125745*^9, {3.764415071626307*^9, 3.7644150973611107`*^9}}]
+  3.763826226125745*^9, {3.764415071626307*^9, 
+   3.7644150973611107`*^9}},ExpressionUUID->"a0f76618-f643-43a8-986f-\
+6d159b90a65c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4029,7 +4167,9 @@ Cell[BoxData[{
 
  CellChangeTimes->{{3.763825095443245*^9, 3.763825139918343*^9}, {
   3.7638253074823637`*^9, 3.763825321856123*^9}, {3.763826886334201*^9, 
-  3.763826900069564*^9}, {3.764416023434073*^9, 3.764416047030747*^9}}],
+  3.763826900069564*^9}, {3.764416023434073*^9, 
+  3.764416047030747*^9}},ExpressionUUID->"14a95755-db60-4565-ba78-\
+359516f52274"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4091,23 +4231,26 @@ Cell[BoxData[
   SeriesData[$CellContext`\[Epsilon], 
    0, {$CellContext`a^
      Rational[-1, 2] $CellContext`\[Epsilon]k, $CellContext`a^
-     Rational[-1, 2] (
-     2 $CellContext`a $CellContext`fd + $CellContext`fdr \
-$CellContext`\[Zeta]), $CellContext`a^Rational[-3, 2] (
-     3 $CellContext`a^3 $CellContext`ft + 
-     2 $CellContext`a^2 $CellContext`ftr $CellContext`\[Zeta] + 
-     6 $CellContext`d1 $CellContext`d2 $CellContext`d3 $CellContext`k1^(-2) \
-$CellContext`k13^(-4) $CellContext`k2^(-2) $CellContext`k3^(-2) $CellContext`\
-\[Zeta] ($CellContext`a $CellContext`k2^2 + 
-       3 $CellContext`\[Zeta]) ($CellContext`k13^2 $CellContext`\[Kappa]12 - \
-$CellContext`\[Kappa]113 $CellContext`\[Kappa]213) (
-       3 $CellContext`\[Zeta] $CellContext`\[Omega] + $CellContext`a \
+     Rational[-1, 2] ((
+       2 $CellContext`a) $CellContext`fd + $CellContext`fdr $CellContext`\
+\[Zeta]), $CellContext`a^
+     Rational[-3, 2] ((
+       3 $CellContext`a^3) $CellContext`ft + ((
+        2 $CellContext`a^2) $CellContext`ftr) $CellContext`\[Zeta] + \
+((((((((((
+                6 $CellContext`d1) $CellContext`d2) $CellContext`d3) \
+$CellContext`k1^(-2)) $CellContext`k13^(-4)) $CellContext`k2^(-2)) \
+$CellContext`k3^(-2)) $CellContext`\[Zeta]) ($CellContext`a $CellContext`k2^2 + 
+         3 $CellContext`\[Zeta])) ($CellContext`k13^2 $CellContext`\[Kappa]12 - \
+$CellContext`\[Kappa]113 $CellContext`\[Kappa]213)) ((
+         3 $CellContext`\[Zeta]) $CellContext`\[Omega] + $CellContext`a \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega])))}, 1, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.763825140325129*^9, 3.7638251482967997`*^9}, {
    3.76382530867968*^9, 3.7638253229269342`*^9}, 3.7638269005502787`*^9, 
    3.764415099323818*^9, {3.764416025389618*^9, 3.764416047390738*^9}, 
-   3.764416159422862*^9}],
+   3.764416159422862*^9},ExpressionUUID->"479b52da-64d5-456f-9ca6-\
+e830849f73ca"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4129,8 +4272,8 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       2 $CellContext`a^Rational[1, 2] $CellContext`fd, $CellContext`a^
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(2 $CellContext`a^Rational[1, 2]) $CellContext`fd, $CellContext`a^
          Rational[-1, 2] $CellContext`fdr}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "2"]}], "+", 
@@ -4166,13 +4309,15 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       3 $CellContext`a^Rational[3, 2] $CellContext`ft, 
-        2 $CellContext`a^Rational[1, 2] ($CellContext`ftr + 
-         3 $CellContext`d1 $CellContext`d2 $CellContext`d3 \
-$CellContext`k1^(-2) $CellContext`k13^(-4) $CellContext`k3^(-2) \
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(3 $CellContext`a^Rational[3, 2]) $CellContext`ft, (
+         2 $CellContext`a^
+          Rational[
+           1, 2]) ($CellContext`ftr + (((((((
+                 3 $CellContext`d1) $CellContext`d2) $CellContext`d3) \
+$CellContext`k1^(-2)) $CellContext`k13^(-4)) $CellContext`k3^(-2)) \
 ($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
-$CellContext`\[Kappa]213) ($CellContext`k13^2 + $CellContext`k3^2 \
+$CellContext`\[Kappa]213)) ($CellContext`k13^2 + $CellContext`k3^2 \
 $CellContext`\[Omega]))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "3"]}], "+", 
@@ -4183,22 +4328,25 @@ $CellContext`\[Omega]))}, 0, 2, 1],
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
    0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     2 $CellContext`a^Rational[1, 2] $CellContext`fd, $CellContext`a^
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(2 $CellContext`a^Rational[1, 2]) $CellContext`fd, $CellContext`a^
        Rational[-1, 2] $CellContext`fdr}, 0, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     3 $CellContext`a^Rational[3, 2] $CellContext`ft, 
-      2 $CellContext`a^Rational[1, 2] ($CellContext`ftr + 
-       3 $CellContext`d1 $CellContext`d2 $CellContext`d3 $CellContext`k1^(-2) \
-$CellContext`k13^(-4) $CellContext`k3^(-2) ($CellContext`k13^2 $CellContext`\
-\[Kappa]12 - $CellContext`\[Kappa]113 $CellContext`\[Kappa]213) \
-($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega]))}, 0, 2, 1]}, 
-   1, 4, 1],
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(3 $CellContext`a^Rational[3, 2]) $CellContext`ft, (
+       2 $CellContext`a^
+        Rational[
+         1, 2]) ($CellContext`ftr + (((((((
+               3 $CellContext`d1) $CellContext`d2) $CellContext`d3) \
+$CellContext`k1^(-2)) $CellContext`k13^(-4)) $CellContext`k3^(-2)) \
+($CellContext`k13^2 $CellContext`\[Kappa]12 - $CellContext`\[Kappa]113 \
+$CellContext`\[Kappa]213)) ($CellContext`k13^2 + $CellContext`k3^2 \
+$CellContext`\[Omega]))}, 0, 2, 1]}, 1, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.763825140325129*^9, 3.7638251482967997`*^9}, {
    3.76382530867968*^9, 3.7638253229269342`*^9}, 3.7638269005502787`*^9, 
    3.764415099323818*^9, {3.764416025389618*^9, 3.764416047390738*^9}, 
-   3.7644161594244547`*^9}],
+   3.7644161594244547`*^9},ExpressionUUID->"22f0f2fc-8f40-40bd-b036-\
+ebbfcba0757e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4256,21 +4404,24 @@ Cell[BoxData[
   SeriesData[$CellContext`\[Epsilon], 
    0, {$CellContext`a^
      Rational[-1, 2] $CellContext`\[Epsilon]k, $CellContext`a^
-     Rational[-1, 2] (
-     2 $CellContext`a $CellContext`fd + $CellContext`fdr \
-$CellContext`\[Zeta]), $CellContext`a^Rational[-3, 2] (
-     3 $CellContext`a^3 $CellContext`ft + 
-     2 $CellContext`a^2 $CellContext`ftr $CellContext`\[Zeta] + 
-     6 $CellContext`d1 $CellContext`d2 $CellContext`d3 $CellContext`k13^(-2) \
-$CellContext`k2^(-2) $CellContext`k3^(-2) $CellContext`p1213 $CellContext`\
-\[Zeta] ($CellContext`a $CellContext`k2^2 + 3 $CellContext`\[Zeta]) (
-       3 $CellContext`\[Zeta] $CellContext`\[Omega] + $CellContext`a \
+     Rational[-1, 2] ((
+       2 $CellContext`a) $CellContext`fd + $CellContext`fdr $CellContext`\
+\[Zeta]), $CellContext`a^
+     Rational[-3, 2] ((
+       3 $CellContext`a^3) $CellContext`ft + ((
+        2 $CellContext`a^2) $CellContext`ftr) $CellContext`\[Zeta] + (((((((((
+               6 $CellContext`d1) $CellContext`d2) $CellContext`d3) \
+$CellContext`k13^(-2)) $CellContext`k2^(-2)) $CellContext`k3^(-2)) \
+$CellContext`p1213) $CellContext`\[Zeta]) ($CellContext`a $CellContext`k2^2 + 
+        3 $CellContext`\[Zeta])) ((
+         3 $CellContext`\[Zeta]) $CellContext`\[Omega] + $CellContext`a \
 ($CellContext`k13^2 + $CellContext`k3^2 $CellContext`\[Omega])))}, 1, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.763825140325129*^9, 3.7638251482967997`*^9}, {
    3.76382530867968*^9, 3.7638253229269342`*^9}, 3.7638269005502787`*^9, 
    3.764415099323818*^9, {3.764416025389618*^9, 3.764416047390738*^9}, 
-   3.764416159425582*^9}],
+   3.764416159425582*^9},ExpressionUUID->"80d4956a-ed24-47ac-ab23-\
+ef392cbd9a60"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4292,8 +4443,8 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       2 $CellContext`a^Rational[1, 2] $CellContext`fd, $CellContext`a^
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(2 $CellContext`a^Rational[1, 2]) $CellContext`fd, $CellContext`a^
          Rational[-1, 2] $CellContext`fdr}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "2"]}], "+", 
@@ -4321,12 +4472,14 @@ Cell[BoxData[
          RowBox[{"O", "[", "\[Zeta]", "]"}], "2"],
         SeriesData[$CellContext`\[Zeta], 0, {}, 0, 2, 1],
         Editable->False]}],
-      SeriesData[$CellContext`\[Zeta], 0, {
-       3 $CellContext`a^Rational[3, 2] $CellContext`ft, 
-        2 $CellContext`a^Rational[1, 2] ($CellContext`ftr + 
-         3 $CellContext`d1 $CellContext`d2 $CellContext`d3 $CellContext`p1213 \
-($CellContext`k3^(-2) + $CellContext`k13^(-2) $CellContext`\[Omega]))}, 0, 2, 
-       1],
+      SeriesData[$CellContext`\[Zeta], 
+       0, {(3 $CellContext`a^Rational[3, 2]) $CellContext`ft, (
+         2 $CellContext`a^
+          Rational[
+           1, 2]) ($CellContext`ftr + ((((
+              3 $CellContext`d1) $CellContext`d2) $CellContext`d3) \
+$CellContext`p1213) ($CellContext`k3^(-2) + $CellContext`k13^(-2) \
+$CellContext`\[Omega]))}, 0, 2, 1],
       Editable->False], ")"}], " ", 
     SuperscriptBox["\[Epsilon]", "3"]}], "+", 
    InterpretationBox[
@@ -4336,31 +4489,35 @@ Cell[BoxData[
     Editable->False]}],
   SeriesData[$CellContext`\[Epsilon], 
    0, {$CellContext`a^Rational[-1, 2] $CellContext`\[Epsilon]k, 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     2 $CellContext`a^Rational[1, 2] $CellContext`fd, $CellContext`a^
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(2 $CellContext`a^Rational[1, 2]) $CellContext`fd, $CellContext`a^
        Rational[-1, 2] $CellContext`fdr}, 0, 2, 1], 
-    SeriesData[$CellContext`\[Zeta], 0, {
-     3 $CellContext`a^Rational[3, 2] $CellContext`ft, 
-      2 $CellContext`a^Rational[1, 2] ($CellContext`ftr + 
-       3 $CellContext`d1 $CellContext`d2 $CellContext`d3 $CellContext`p1213 \
-($CellContext`k3^(-2) + $CellContext`k13^(-2) $CellContext`\[Omega]))}, 0, 2, 
-     1]}, 1, 4, 1],
+    SeriesData[$CellContext`\[Zeta], 
+     0, {(3 $CellContext`a^Rational[3, 2]) $CellContext`ft, (
+       2 $CellContext`a^
+        Rational[
+         1, 2]) ($CellContext`ftr + ((((
+            3 $CellContext`d1) $CellContext`d2) $CellContext`d3) \
+$CellContext`p1213) ($CellContext`k3^(-2) + $CellContext`k13^(-2) \
+$CellContext`\[Omega]))}, 0, 2, 1]}, 1, 4, 1],
   Editable->False]], "Output",
  CellChangeTimes->{{3.763825140325129*^9, 3.7638251482967997`*^9}, {
    3.76382530867968*^9, 3.7638253229269342`*^9}, 3.7638269005502787`*^9, 
    3.764415099323818*^9, {3.764416025389618*^9, 3.764416047390738*^9}, 
-   3.764416159426729*^9}]
+   3.764416159426729*^9},ExpressionUUID->"08a923ca-5cd5-4b20-889b-\
+8064f14531ef"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1853, 1025},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1389.75, 767.25},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
 PrintingCopies->1,
 PrintingPageRange->{Automatic, Automatic},
-FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+FrontEndVersion->"12.3 pour Linux x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->FrontEnd`FileName[{"Creative"}, "NaturalColor.nb", 
-  CharacterEncoding -> "UTF-8"]
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"b8be31e0-796a-4057-89c9-c3ec87a74033"
 ]
 (* End of Notebook Content *)
 
@@ -4374,84 +4531,81 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 92, 1, 78, "Section"],
+Cell[579, 22, 152, 3, 78, "Section",ExpressionUUID->"b3df73c0-0920-4e8a-854e-dc1f0c5f0035"],
 Cell[CellGroupData[{
-Cell[696, 27, 177, 6, 39, "Subsection"],
-Cell[876, 35, 10923, 330, 560, "Input"]
+Cell[756, 29, 295, 9, 39, "Subsection",ExpressionUUID->"8964b7f5-370e-47cc-98db-a79789caf617"],
+Cell[1054, 40, 10980, 331, 448, "Input",ExpressionUUID->"8462d71b-ad7c-436a-ab0b-72d780b1f17e"],
+Cell[12037, 373, 6654, 196, 266, "Input",ExpressionUUID->"4fee2b71-7b07-4f8b-9536-0a2963542b7c"],
+Cell[18694, 571, 306, 6, 104, "Input",ExpressionUUID->"e3ed6783-e8c3-4a81-aa27-465bc7138391"],
+Cell[CellGroupData[{
+Cell[19025, 581, 906, 25, 97, "Input",ExpressionUUID->"660001cc-989d-4292-b22d-06eaacc452ca"],
+Cell[19934, 608, 3261, 73, 76, "Output",ExpressionUUID->"58828ca5-7731-4f1a-8613-aab032b9a604"],
+Cell[23198, 683, 23568, 529, 311, "Output",ExpressionUUID->"e3b929cc-14fc-4a98-9a2d-0fa85291e0fb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46803, 1217, 1430, 36, 87, "Input",ExpressionUUID->"2341245a-aefe-40ea-b75b-dfb89d7b2a8a"],
+Cell[48236, 1255, 19500, 434, 256, "Output",ExpressionUUID->"8d5454e0-d05e-4913-8535-b46592e54d30"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11848, 371, 91, 1, 78, "Section"],
-Cell[11942, 374, 6597, 195, 197, "Input"],
-Cell[18542, 571, 245, 4, 109, "Input"],
+Cell[67785, 1695, 361, 10, 38, "Subsection",ExpressionUUID->"04455f54-641e-4eb2-8f62-21ec0dac8e6f"],
+Cell[68149, 1707, 543, 16, 45, "Input",ExpressionUUID->"cf8f07f7-902b-45bf-88cb-ba7074a44756"],
 Cell[CellGroupData[{
-Cell[18812, 579, 845, 23, 68, "Input"],
-Cell[19660, 604, 3154, 70, 80, "Output"],
-Cell[22817, 676, 22949, 514, 316, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[45803, 1195, 1369, 34, 75, "Input"],
-Cell[47175, 1231, 18847, 409, 256, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[66059, 1645, 241, 6, 39, "Subsection"],
-Cell[66303, 1653, 482, 14, 45, "Input"],
-Cell[CellGroupData[{
-Cell[66810, 1671, 1302, 37, 119, "Input"],
-Cell[68115, 1710, 2558, 63, 84, "Output"],
-Cell[70676, 1775, 2511, 61, 70, "Output"]
+Cell[68717, 1727, 1359, 38, 119, "Input",ExpressionUUID->"7991e44a-4cbe-4c23-bbe2-238300bd927a"],
+Cell[70079, 1767, 2650, 66, 84, "Output",ExpressionUUID->"dcdfc359-3691-4acb-a4a2-dff41172549e"],
+Cell[72732, 1835, 2620, 65, 70, "Output",ExpressionUUID->"79d7c55b-7884-4ac0-8917-7491eb8a133e"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[73236, 1842, 292, 7, 31, "Subsection"],
-Cell[73531, 1851, 404, 13, 45, "Input"],
-Cell[73938, 1866, 94, 1, 42, "Input"],
+Cell[75401, 1906, 412, 11, 30, "Subsection",ExpressionUUID->"b8fbc11a-4546-4445-bd98-829521c63bc1"],
+Cell[75816, 1919, 464, 15, 58, "Input",ExpressionUUID->"3bb2f46c-cb75-493b-b154-f2e1c89bdae1"],
+Cell[76283, 1936, 154, 3, 41, "Input",ExpressionUUID->"c038e3b0-dfd4-44d5-ba3a-9ed0522e0ad4"],
 Cell[CellGroupData[{
-Cell[74057, 1871, 584, 15, 47, "Input"],
-Cell[74644, 1888, 7385, 182, 123, "Output"]
+Cell[76462, 1943, 645, 17, 59, "Input",ExpressionUUID->"f48d31b6-9f5a-43e7-805f-a4fece365880"],
+Cell[77110, 1962, 7614, 187, 111, "Output",ExpressionUUID->"e5656ce2-c1eb-44c1-bf50-7d78f8c09a7d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[82066, 2075, 261, 7, 42, "Input"],
-Cell[82330, 2084, 6866, 166, 129, "Output"]
+Cell[84761, 2154, 321, 9, 58, "Input",ExpressionUUID->"6d05904d-af7f-4eac-b9b3-805fdef25370"],
+Cell[85085, 2165, 7037, 170, 115, "Output",ExpressionUUID->"7bbb2650-9e56-41d8-9c5a-a9f9b1b8ceeb"]
 }, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[92183, 2342, 208, 4, 78, "Section",ExpressionUUID->"ccfeaff7-45e8-412c-8890-9d00b00c52eb"],
+Cell[CellGroupData[{
+Cell[92416, 2350, 1033, 28, 41, "Input",ExpressionUUID->"54f4f486-31ab-436e-8fbf-590c2bc72527"],
+Cell[93452, 2380, 467, 9, 59, "Output",ExpressionUUID->"81a64196-fd4a-46f6-94e1-54432597e48c"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[93968, 2395, 187, 3, 78, "Section",ExpressionUUID->"c0bc68de-5d13-492b-a958-e625dfdf7ff4"],
+Cell[CellGroupData[{
+Cell[94180, 2402, 1312, 37, 78, "Input",ExpressionUUID->"2d7c3dc6-6f48-4174-a3a4-f688e010fe25"],
+Cell[95495, 2441, 3494, 91, 65, "Output",ExpressionUUID->"5bc85b0e-7b93-4e79-9079-049a0c408363"]
+}, Open  ]],
+Cell[99004, 2535, 7660, 229, 196, "Input",ExpressionUUID->"6950da8c-a2f8-4ff2-8bc7-bbddcc73eb45"],
+Cell[CellGroupData[{
+Cell[106689, 2768, 154, 3, 39, "Subsection",ExpressionUUID->"4d65cae4-6a34-4de6-a272-daaa04ffecdb"],
+Cell[106846, 2773, 640, 19, 45, "Input",ExpressionUUID->"35e16a34-09a2-4fe2-b134-27282d5e03e5"],
+Cell[CellGroupData[{
+Cell[107511, 2796, 760, 19, 65, "Input",ExpressionUUID->"db2d7ce0-2de9-4db4-b5d9-97d88456d2cb"],
+Cell[108274, 2817, 20085, 441, 248, "Output",ExpressionUUID->"63664e94-eeba-42bc-8c82-114e8be67180"],
+Cell[128362, 3260, 11768, 254, 151, "Output",ExpressionUUID->"98a5a69b-52e7-4720-94d0-05f70c2f2e2c"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[89257, 2257, 148, 2, 48, "Section"],
+Cell[140179, 3520, 157, 3, 31, "Subsection",ExpressionUUID->"735573a4-eb67-4bd8-bd6a-06b499951386"],
 Cell[CellGroupData[{
-Cell[89430, 2263, 972, 26, 42, "Input"],
-Cell[90405, 2291, 410, 8, 62, "Output"]
-}, Open  ]]
+Cell[140361, 3527, 979, 31, 134, "Input",ExpressionUUID->"a984c8ba-dae0-4a1f-a7cc-9c0f23576eed"],
+Cell[141343, 3560, 15854, 354, 204, "Output",ExpressionUUID->"d667c8cc-e4a7-48fd-9e9f-79bbf27cd93c"],
+Cell[157200, 3916, 8596, 194, 158, "Output",ExpressionUUID->"a0f76618-f643-43a8-986f-6d159b90a65c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[90864, 2305, 127, 1, 78, "Section"],
-Cell[CellGroupData[{
-Cell[91016, 2310, 1252, 35, 73, "Input"],
-Cell[92271, 2347, 3305, 85, 70, "Output"]
-}, Open  ]],
-Cell[95591, 2435, 7600, 227, 304, "Input"],
-Cell[CellGroupData[{
-Cell[103216, 2666, 94, 1, 39, "Subsection"],
-Cell[103313, 2669, 580, 17, 45, "Input"],
-Cell[CellGroupData[{
-Cell[103918, 2690, 699, 17, 65, "Input"],
-Cell[104620, 2709, 19640, 433, 248, "Output"],
-Cell[124263, 3144, 11402, 247, 151, "Output"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[135714, 3397, 97, 1, 31, "Subsection"],
-Cell[CellGroupData[{
-Cell[135836, 3402, 919, 29, 90, "Input"],
-Cell[136758, 3433, 15475, 349, 201, "Output"],
-Cell[152236, 3784, 8281, 188, 176, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[160554, 3977, 1758, 54, 180, "Input"],
-Cell[162315, 4033, 3032, 76, 84, "Output"],
-Cell[165350, 4111, 3689, 89, 70, "Output"],
-Cell[169042, 4202, 2714, 70, 84, "Output"],
-Cell[171759, 4274, 3071, 77, 100, "Output"]
+Cell[165833, 4115, 1818, 56, 269, "Input",ExpressionUUID->"14a95755-db60-4565-ba78-359516f52274"],
+Cell[167654, 4173, 3149, 79, 78, "Output",ExpressionUUID->"479b52da-64d5-456f-9ca6-e830849f73ca"],
+Cell[170806, 4254, 3844, 94, 65, "Output",ExpressionUUID->"22f0f2fc-8f40-40bd-b036-ebbfcba0757e"],
+Cell[174653, 4350, 2833, 73, 78, "Output",ExpressionUUID->"80d4956a-ed24-47ac-ab23-ef392cbd9a60"],
+Cell[177489, 4425, 3200, 82, 61, "Output",ExpressionUUID->"08a923ca-5cd5-4b20-889b-8064f14531ef"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -4459,4 +4613,3 @@ Cell[171759, 4274, 3071, 77, 100, "Output"]
 ]
 *)
 
-(* End of internal cache information *)
