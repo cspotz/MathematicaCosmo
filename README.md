@@ -3,4 +3,4 @@ Here, I share with the community some mathematica codes that I wrote through my 
 
 [`GRclaculator.nb`](https://github.com/cspotz/MathematicaCosmo/blob/main/GRclaculator.nb) allows to compute all the component of the Einstein tensor starting from a given metric.
 
-[This code]( https://github.com/cspotz/MathematicaCosmo/blob/main/april19_up(1).nb) calculates relativistic corrections to SPT and the loop integrals, therefore allowing to reproduce some results presented in that paper. 
+[This code]( https://github.com/cspotz/MathematicaCosmo/blob/main/april19_up(1).nb) calculates relativistic corrections to SPT and the loop integrals, therefore allowing to reproduce some results presented in [that paper] (https://arxiv.org/abs/1811.05452). 
