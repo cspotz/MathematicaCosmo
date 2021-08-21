@@ -7,4 +7,4 @@ Here, I share with the community some mathematica codes that I wrote through my 
 
 * [`SPT.nb`](https://github.com/cspotz/MathematicaCosmo/blob/main/SPT.nb) calculates analytically the perturbation theory kernels up to 4th order (easy to generalize to more) for any given function for the seed fields (delta/theta/phi). It is quite flexible to generalize for more fields (modified gravity...)
 
-* 
+* [`frac.nb`](https://github.com/cspotz/MathematicaCosmo/blob/main/frac.nb) fits the supernoavae data Union 2.1 to the FLRW model and the fractal model that I wrote down. It allow to reproduce some of the results that I presented here and here. 
