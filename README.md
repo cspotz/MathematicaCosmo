@@ -5,4 +5,6 @@ Here, I share with the community some mathematica codes that I wrote through my 
 
 * [This code]( https://github.com/cspotz/MathematicaCosmo/blob/main/april19_up(1).nb) calculates relativistic corrections to SPT and the loop integrals, therefore allowing to reproduce some results presented in https://arxiv.org/abs/1811.05452. 
 
-* [`SPT.nb`](https://github.com/cspotz/MathematicaCosmo/blob/main/SPT.nb) calculates the consistancy relation presented in Appendix E of  https://arxiv.org/abs/1811.05452. 
+* [`SPT.nb`](https://github.com/cspotz/MathematicaCosmo/blob/main/SPT.nb) calculates analytically the perturbation theory kernels up to 4th order (easy to generalize to more) for any given function for the seed fields (delta/theta/phi). It is quite flexible to generalize for more fields (modified gravity...)
+
+* 
